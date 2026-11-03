@@ -8,6 +8,7 @@ import { StoreProvider } from "@/components/providers";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://youmibeauty.com"),
   title: {
     default: "Youmi Beauty — Hair, Lenses & Rituals | Dubai",
     template: "%s | Youmi Beauty",

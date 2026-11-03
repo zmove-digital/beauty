@@ -242,7 +242,7 @@ export function Drawers() {
 
           <div className="drawer-bottom-note">
             <IconGlobe />
-            <span>Free worldwide shipping over Dhs. 1,500</span>
+            <span>Complimentary shipping over Dhs. 300</span>
           </div>
         </div>
       </section>

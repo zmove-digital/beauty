@@ -4610,3 +4610,66 @@ a.cropped-image-wrapper {
   line-height: 1.7;
   opacity: 0.8;
 }
+
+/* ----------------------------- shared page bits -------------------------- */
+
+.page-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  font-size: 0.68rem;
+  color: rgba(34, 34, 34, 0.6);
+  margin-bottom: 1.1rem;
+}
+.page-breadcrumb a {
+  color: rgba(34, 34, 34, 0.65);
+}
+.page-breadcrumb a:hover {
+  color: var(--color-link-hover);
+}
+
+.form-message {
+  font-size: 0.78rem;
+  line-height: 1.55;
+  border: 1px solid rgba(34, 34, 34, 0.2);
+  background: #f8f7f6;
+  padding: 0.8rem 1rem;
+}
+.form-message.is-error {
+  border-color: rgba(160, 44, 44, 0.4);
+  background: #fbf1f0;
+  color: #8a2b25;
+}
+
+.product-wishlist-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.3px;
+  padding: 0.35rem 0;
+  margin-bottom: 0.6rem;
+  color: #222;
+}
+.product-wishlist-link svg {
+  width: 1.05rem;
+  height: 1.05rem;
+}
+.product-wishlist-link.is-active {
+  color: var(--color-link-hover);
+}
+.product-wishlist-link:hover {
+  color: var(--color-link-hover);
+}
+
+@media (max-width: 990px) {
+  .main-product.template-page {
+    margin-top: 5.4rem;
+  }
+}
+
+.article-info h1 {
+  font-size: clamp(1.7rem, 2.8vw, 2.5rem);
+  line-height: 1.14;
+  letter-spacing: -0.01em;
+}

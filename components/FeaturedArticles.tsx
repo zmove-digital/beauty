@@ -10,7 +10,7 @@ export function FeaturedArticles({ articles }: { articles: Article[] }) {
 
   return (
     <section className="featured-posts section-x-padding section-light">
-      <h1 className="container sidebar-space h2 featured-posts__title">Featured Articles</h1>
+      <h2 className="container sidebar-space h2 featured-posts__title">Featured Articles</h2>
 
       <div className="articles-wrapper sidebar-space">
         <div className="article-track">
