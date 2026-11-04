@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 
-const baseUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://youmibeauty.com").replace(/\/$/, "");
+import { getSiteUrl } from "@/lib/site-url";
+
+const baseUrl = getSiteUrl();
 
 export default function robots(): MetadataRoute.Robots {
   return {

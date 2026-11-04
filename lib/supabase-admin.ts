@@ -1,12 +1,12 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
+import { readSupabaseConfig } from "./supabase-env";
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+const supabaseConfig = readSupabaseConfig();
 
 let cachedAdmin: SupabaseClient | null = null;
 
 export function isDatabaseConfigured(): boolean {
-  return Boolean(supabaseUrl && serviceRoleKey);
+  return Boolean(supabaseConfig?.serviceRoleKey);
 }
 
 /**
@@ -16,9 +16,9 @@ export function isDatabaseConfigured(): boolean {
  * storefront run in demo mode with the local catalog.
  */
 export function getAdminClient(): SupabaseClient | null {
-  if (!supabaseUrl || !serviceRoleKey) return null;
+  if (!supabaseConfig?.serviceRoleKey) return null;
   if (!cachedAdmin) {
-    cachedAdmin = createClient(supabaseUrl, serviceRoleKey, {
+    cachedAdmin = createClient(supabaseConfig.url, supabaseConfig.serviceRoleKey, {
       auth: { persistSession: false, autoRefreshToken: false },
     });
   }

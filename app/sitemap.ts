@@ -1,10 +1,11 @@
 import type { MetadataRoute } from "next";
 import { contentPages, policyPages } from "@/lib/content";
 import { getAllArticles, getAllCollections, getAllProducts } from "@/lib/data";
+import { getSiteUrl } from "@/lib/site-url";
 
 export const revalidate = 3600;
 
-const baseUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://youmibeauty.com").replace(/\/$/, "");
+const baseUrl = getSiteUrl();
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [collections, products, articles] = await Promise.all([

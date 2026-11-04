@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "description": "Youmi Beauty — international hair, beauty and lens storefront",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

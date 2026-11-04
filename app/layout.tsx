@@ -1,9 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
+import { getSiteUrl } from "@/lib/site-url";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://youmibeauty.com"),
+  metadataBase: new URL(getSiteUrl()),
   title: {
     default: "Youmi Beauty — Hair, Lenses & Rituals | Dubai",
     template: "%s | Youmi Beauty",

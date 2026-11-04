@@ -93,6 +93,8 @@ The seed script reads `data/catalog.json` and writes collections, products, imag
 
 5. Restart the server and sign in at http://localhost:3000/admin/login.
 
+> Environment values are normalised at runtime (`lib/supabase-env.ts`, `lib/site-url.ts`). Quotes around a value and a missing `https://` are tolerated, and an invalid or blank value is treated as "not configured" so a bad dashboard entry cannot break a deployment. Still, use `https://` in `NEXT_PUBLIC_SITE_URL` so canonical URLs are correct.
+
 ### How the fallback works
 
 - `lib/data.ts` reads from Supabase when the public URL and anon key are configured. If a query fails or returns no rows, it falls back to `data/catalog.json`.
