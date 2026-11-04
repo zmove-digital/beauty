@@ -7,6 +7,10 @@ import { ShopTheLook } from "@/components/ShopTheLook";
 import { overlayGrids } from "@/lib/catalog";
 import { getAllArticles, getCollectionProducts } from "@/lib/data";
 
+// Refresh the home page every 30s so catalog edits made in /admin appear
+// without a full rebuild. Admin writes also trigger revalidation on demand.
+export const revalidate = 30;
+
 export default async function HomePage() {
   const [bestSellers, lenses, articles] = await Promise.all([
     getCollectionProducts("best-sellers"),

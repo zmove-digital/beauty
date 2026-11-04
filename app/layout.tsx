@@ -1,10 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
-import { AnnouncementBar } from "@/components/AnnouncementBar";
-import { Drawers } from "@/components/Drawers";
-import { Footer } from "@/components/Footer";
-import { Sidebar } from "@/components/Sidebar";
-import { StoreProvider } from "@/components/providers";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -46,17 +41,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>
-        <StoreProvider>
-          <AnnouncementBar />
-          <Sidebar />
-          <Drawers />
-          <main className="page-main" id="main">
-            {children}
-          </main>
-          <Footer />
-        </StoreProvider>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

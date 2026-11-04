@@ -159,5 +159,17 @@ create policy "Guests can place order items" on public.order_items for insert wi
 drop policy if exists "Guests can subscribe" on public.newsletter_subscribers;
 create policy "Guests can subscribe" on public.newsletter_subscribers for insert with check (true);
 
--- The server-side service-role key bypasses RLS, so the checkout API and
--- the seed script never need extra policies.
+-- The server-side service-role key bypasses RLS, so the checkout API,
+-- the admin panel and the seed script never need extra policies.
+
+-- ---------- Storage (images uploaded from /admin) -----------
+-- Creates the public bucket used by the admin image uploader. Writes are
+-- performed with the service-role key, so only public read is needed here.
+
+insert into storage.buckets (id, name, public)
+values ('product-images', 'product-images', true)
+on conflict (id) do update set public = true;
+
+drop policy if exists "Public read product images bucket" on storage.objects;
+create policy "Public read product images bucket" on storage.objects
+  for select using (bucket_id = 'product-images');

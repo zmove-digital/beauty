@@ -5,6 +5,9 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { getAllArticles, getArticleByHandle } from "@/lib/data";
 import { formatDate } from "@/lib/format";
 
+export const revalidate = 30;
+export const dynamicParams = true;
+
 type PageProps = {
   params: Promise<{ handle: string }>;
 };

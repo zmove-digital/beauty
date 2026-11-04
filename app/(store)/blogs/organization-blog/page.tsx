@@ -4,6 +4,8 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { getAllArticles } from "@/lib/data";
 import { formatDate } from "@/lib/format";
 
+export const revalidate = 30;
+
 export const metadata: Metadata = {
   title: "The Journal",
   description:

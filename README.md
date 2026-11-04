@@ -48,18 +48,40 @@ API routes:
 - `POST /api/newsletter` — newsletter opt-in
 - `POST /api/checkout` — server-side re-priced order
 
+## Admin panel
+
+The storefront is also editable through a small password-protected panel at `/admin`.
+
+| Route | Description |
+| --- | --- |
+| `/admin/login` | Password sign-in (cookie session, 12 hours) |
+| `/admin` | Dashboard with catalog counters and recent orders |
+| `/admin/products` | Product list, create, edit, delete and image upload |
+| `/admin/collections` | Create and edit collections |
+| `/admin/articles` | Create and edit journal articles |
+| `/admin/orders` | Orders with line items and status updates |
+| `/admin/subscribers` | Newsletter list with CSV export |
+
+The panel needs the Supabase service-role key and an `ADMIN_PASSWORD` (see below). It writes with the service-role client, so the site's public RLS policies stay read-only for catalog data. Uploaded images go to the public `product-images` Storage bucket created by `supabase/schema.sql`.
+
+Catalog pages use incremental static regeneration: `revalidate = 30` covers normal traffic, and every admin write calls `revalidatePath` so edits appear immediately without a rebuild.
+
 ## Supabase setup (optional)
 
 1. Create a project at [supabase.com](https://supabase.com).
-2. In the SQL editor, run `supabase/schema.sql`. It creates the catalog, articles, newsletter and order tables plus row-level security policies.
+2. In the SQL editor, run `supabase/schema.sql`. It creates the catalog, articles, newsletter and order tables, the `product-images` Storage bucket, and row-level security policies.
 3. Copy `.env.example` to `.env.local` and fill in:
 
 ```bash
 NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
 SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+ADMIN_PASSWORD=choose-a-long-password
+ADMIN_SESSION_SECRET=optional-random-string
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
+
+`ADMIN_SESSION_SECRET` is optional; when empty the session cookie is signed with `ADMIN_PASSWORD`. Change `ADMIN_PASSWORD` to invalidate every existing admin session.
 
 4. Seed the catalog:
 
@@ -68,6 +90,8 @@ npm run seed
 ```
 
 The seed script reads `data/catalog.json` and writes collections, products, images, options, article content and collection relations.
+
+5. Restart the server and sign in at http://localhost:3000/admin/login.
 
 ### How the fallback works
 
@@ -79,13 +103,16 @@ The seed script reads `data/catalog.json` and writes collections, products, imag
 ## Project structure
 
 ```
-app/                 App Router pages and API routes
+app/(store)/         Storefront routes (sidebar, drawers, footer layout)
+app/admin/           Password-protected admin panel
+app/api/             Storefront and admin API routes
 components/          Storefront UI (client and server components)
+components/admin/    Admin forms and tables
 data/catalog.json    Static catalog fallback
-lib/                 Data access, formatting, content and Supabase client
+lib/                 Data access, formatting and Supabase clients
 public/images/       Product and editorial imagery
 scripts/seed.mjs     Supabase seed script
-supabase/schema.sql  Database schema and policies
+supabase/schema.sql  Database schema, storage bucket and policies
 ```
 
 ## QA helper

@@ -13,6 +13,9 @@ import { ProductTabsCarousel } from "@/components/ProductTabsCarousel";
 import { getAllProducts, getCollectionByHandle, getCollectionProducts, getProductByHandle } from "@/lib/data";
 import { money } from "@/lib/format";
 
+export const revalidate = 30;
+export const dynamicParams = true;
+
 type PageProps = {
   params: Promise<{ handle: string }>;
 };

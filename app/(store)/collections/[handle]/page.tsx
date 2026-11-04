@@ -8,6 +8,9 @@ import {
   getCollectionProducts,
 } from "@/lib/data";
 
+export const revalidate = 30;
+export const dynamicParams = true;
+
 type PageProps = {
   params: Promise<{ handle: string }>;
 };
