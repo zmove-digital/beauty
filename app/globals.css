@@ -2943,6 +2943,12 @@ a.cropped-image-wrapper {
 }
 
 @media (min-width: 991px) {
+  /* .footer__inner uses a padding shorthand, which would otherwise reset the
+     .sidebar-space offset and let the fixed sidebar cover the footer. */
+  .footer .footer__inner.sidebar-space {
+    padding-left: calc(var(--sidebar-width) + var(--page-margin));
+  }
+
   .footer__grid {
     display: flex;
     flex-direction: row;
