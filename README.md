@@ -133,3 +133,12 @@ node scripts/qa-layout.mjs http://localhost:3000
 - Bag and wishlist are kept in `localStorage` (`youmi.cart.v1`, `youmi.wishlist.v1`). Order history is kept in `youmi.orders.v1` for the account preview.
 - Checkout is intentionally a confirmation flow: no payment provider is connected. Add a payment gateway before taking live orders.
 - Update `NEXT_PUBLIC_SITE_URL` in production so canonical URLs, Open Graph metadata, `sitemap.xml` and `robots.txt` point at the live domain.
+
+## Security
+
+- Admin sessions use an HMAC-signed, `httpOnly` cookie (`youmi_admin`, 12h). `Secure` is set from the request protocol, so HTTP works locally and HTTPS is enforced in production.
+- `/api/admin/login` allows 5 failed attempts per IP per 10 minutes, then answers `429` with `Retry-After`. The counter is in-memory on the serverless instance; for a shared limit across instances, swap `lib/rate-limit.ts` for a Redis-backed store.
+- `next.config.ts` sets `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy`, `Permissions-Policy` and a CSP restricted to the site itself plus the Supabase project (`img-src`/`connect-src`). If you add analytics, a payment gateway or a new asset host, extend the CSP lists.
+- Every `/api/admin/*` route requires a valid session; catalogue reads are public, orders and newsletter subscribers are not readable with the anon key.
+- Rotate `SUPABASE_SERVICE_ROLE_KEY` and `ADMIN_PASSWORD` before sharing the site with the client, and keep `/admin` out of anything you send them.
+

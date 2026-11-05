@@ -4,6 +4,7 @@ out
 .env
 .env.local
 .env*.local
+PSW.txt
 *.tsbuildinfo
 .DS_Store
 npm-debug.log*

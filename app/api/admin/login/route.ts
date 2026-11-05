@@ -6,12 +6,30 @@ import {
   createSessionToken,
   isAdminConfigured,
 } from "@/lib/admin-auth";
+import {
+  checkLoginRateLimit,
+  clientIp,
+  recordLoginFailure,
+  resetLoginFailures,
+} from "@/lib/rate-limit";
+
+/** Slows down scripted guessing without affecting a normal login. */
+const FAILURE_DELAY_MS = 400;
 
 export async function POST(request: Request) {
   if (!isAdminConfigured()) {
     return NextResponse.json(
       { error: "ADMIN_PASSWORD não está definido no .env.local." },
       { status: 503 },
+    );
+  }
+
+  const ip = clientIp(request);
+  const limit = checkLoginRateLimit(ip);
+  if (!limit.allowed) {
+    return NextResponse.json(
+      { error: "Muitas tentativas. Tente novamente mais tarde." },
+      { status: 429, headers: { "Retry-After": String(limit.retryAfterSeconds) } },
     );
   }
 
@@ -24,8 +42,18 @@ export async function POST(request: Request) {
   }
 
   if (!checkPassword(password)) {
-    return NextResponse.json({ error: "Senha incorreta." }, { status: 401 });
+    const state = recordLoginFailure(ip);
+    await new Promise((resolve) => setTimeout(resolve, FAILURE_DELAY_MS));
+    return NextResponse.json(
+      {
+        error: "Senha incorreta.",
+        remainingAttempts: state.remaining,
+      },
+      { status: 401 },
+    );
   }
+
+  resetLoginFailures(ip);
 
   const response = NextResponse.json({ ok: true });
   response.cookies.set({
