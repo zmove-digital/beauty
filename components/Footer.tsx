@@ -64,8 +64,8 @@ export function Footer() {
                 </span>
                 <div className="inner-text">
                   <span className="text">Email us</span>
-                  <a className="contact-link" href="mailto:Support@youmibeauty.com">
-                    Support@youmibeauty.com
+                  <a className="contact-link" href="mailto:support@romanbeauty.com">
+                    support@romanbeauty.com
                   </a>
                 </div>
               </div>

@@ -23,7 +23,7 @@ export const contentPages: Record<string, StaticPage> = {
       <p>We keep the range small so we can stand behind every item. If a tool does not feel salon-grade in the hand, it does not make the collection. If a shade does not look natural in daylight, we keep working on it.</p>
       <h2>Here when you need us</h2>
       <p>Our team is based in Dubai and answers on WhatsApp within one business day. Colour matching for extensions, prescription checks for lenses and styling advice are all part of the service — before and after you order.</p>
-      <p>Questions? Write to <a href="mailto:Support@youmibeauty.com">Support@youmibeauty.com</a> or message us on <a href="https://wa.me/+971522888834" target="_blank" rel="noopener noreferrer">WhatsApp</a>.</p>
+      <p>Questions? Write to <a href="mailto:support@romanbeauty.com">support@romanbeauty.com</a> or message us on <a href="https://wa.me/+971522888834" target="_blank" rel="noopener noreferrer">WhatsApp</a>.</p>
     `,
   },
   "frequently-asked-questions": {
@@ -52,7 +52,7 @@ export const contentPages: Record<string, StaticPage> = {
       <h2>Returns &amp; support</h2>
       <p><strong>What is your returns policy?</strong> Unused, unopened items can be returned within 14 days of delivery. For hygiene reasons, opened extensions, lenses and body-care products are non-returnable. See our <a href="/policies/refund-policy">Refund Policy</a> for full details.</p>
       <p><strong>What if something arrives damaged?</strong> Message us within 48 hours with a photo and your order number. We will arrange a replacement or refund.</p>
-      <p><strong>How do I reach you?</strong> WhatsApp <a href="https://wa.me/+971522888834" target="_blank" rel="noopener noreferrer">+971 52 288 8834</a> or email <a href="mailto:Support@youmibeauty.com">Support@youmibeauty.com</a>.</p>
+      <p><strong>How do I reach you?</strong> WhatsApp <a href="https://wa.me/+971522888834" target="_blank" rel="noopener noreferrer">+971 52 288 8834</a> or email <a href="mailto:support@romanbeauty.com">support@romanbeauty.com</a>.</p>
     `,
   },
   press: {
@@ -71,7 +71,7 @@ export const contentPages: Record<string, StaticPage> = {
         <li>Support and colour matching available on WhatsApp.</li>
       </ul>
       <h2>Press enquiries</h2>
-      <p>For interviews, product samples or high-resolution imagery, contact <a href="mailto:Support@youmibeauty.com">Support@youmibeauty.com</a> with your outlet, deadline and request. We answer within one business day.</p>
+      <p>For interviews, product samples or high-resolution imagery, contact <a href="mailto:support@romanbeauty.com">support@romanbeauty.com</a> with your outlet, deadline and request. We answer within one business day.</p>
       <h2>Using our imagery</h2>
       <p>Images from this site may be used for editorial coverage of Roman Beauty with credit. Please do not alter product colours or remove the brand name from lifestyle imagery.</p>
     `,
@@ -97,7 +97,7 @@ export const contentPages: Record<string, StaticPage> = {
         <li>Approved accounts receive a dedicated order contact and restock reminders.</li>
       </ol>
       <h2>Start a conversation</h2>
-      <p>Email <a href="mailto:Support@youmibeauty.com">Support@youmibeauty.com</a> with the subject “Wholesale” or message <a href="https://wa.me/+971522888834" target="_blank" rel="noopener noreferrer">+971 52 288 8834</a>.</p>
+      <p>Email <a href="mailto:support@romanbeauty.com">support@romanbeauty.com</a> with the subject “Wholesale” or message <a href="https://wa.me/+971522888834" target="_blank" rel="noopener noreferrer">+971 52 288 8834</a>.</p>
     `,
   },
   affiliate: {
@@ -121,7 +121,7 @@ export const contentPages: Record<string, StaticPage> = {
         <li>Respect for our hygiene and lens-safety guidelines.</li>
       </ul>
       <h2>Apply</h2>
-      <p>Send your name, social handle, audience size and a short note about how you would feature Roman Beauty to <a href="mailto:Support@youmibeauty.com">Support@youmibeauty.com</a>.</p>
+      <p>Send your name, social handle, audience size and a short note about how you would feature Roman Beauty to <a href="mailto:support@romanbeauty.com">support@romanbeauty.com</a>.</p>
     `,
   },
 };
@@ -148,11 +148,11 @@ export const policyPages: Record<string, StaticPage> = {
       <h2>Cookies and local storage</h2>
       <p>The site uses local storage to remember your bag and wishlist on your device. Analytics, where enabled, is used in aggregate to understand which pages are useful.</p>
       <h2>Your choices</h2>
-      <p>You can ask us to access, correct or delete your personal information, or unsubscribe from marketing at any time, by emailing <a href="mailto:Support@youmibeauty.com">Support@youmibeauty.com</a>.</p>
+      <p>You can ask us to access, correct or delete your personal information, or unsubscribe from marketing at any time, by emailing <a href="mailto:support@romanbeauty.com">support@romanbeauty.com</a>.</p>
       <h2>Retention</h2>
       <p>Order records are kept for as long as required for accounting, warranty and legal purposes. Marketing preferences are kept until you withdraw consent.</p>
       <h2>Contact</h2>
-      <p>Questions about privacy can be sent to <a href="mailto:Support@youmibeauty.com">Support@youmibeauty.com</a> or <a href="https://wa.me/+971522888834" target="_blank" rel="noopener noreferrer">+971 52 288 8834</a>.</p>
+      <p>Questions about privacy can be sent to <a href="mailto:support@romanbeauty.com">support@romanbeauty.com</a> or <a href="https://wa.me/+971522888834" target="_blank" rel="noopener noreferrer">+971 52 288 8834</a>.</p>
     `,
   },
   "refund-policy": {
@@ -171,7 +171,7 @@ export const policyPages: Record<string, StaticPage> = {
       <p>Message us within 48 hours of delivery with your order number and a photo of the issue. We will arrange a replacement, repair or refund, including return shipping where appropriate.</p>
       <h2>How to start a return</h2>
       <ol>
-        <li>Email <a href="mailto:Support@youmibeauty.com">Support@youmibeauty.com</a> with your order number and reason for return.</li>
+        <li>Email <a href="mailto:support@romanbeauty.com">support@romanbeauty.com</a> with your order number and reason for return.</li>
         <li>We will confirm whether the item is eligible and share return instructions.</li>
         <li>Once the item is received and inspected, we will process the refund to the original payment method.</li>
       </ol>

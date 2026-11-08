@@ -161,8 +161,8 @@ export function Drawers() {
               <IconWhatsApp />
               <span>971 52 288 8834</span>
             </a>
-            <a href="mailto:Support@youmibeauty.com">
-              <span>Support@youmibeauty.com</span>
+            <a href="mailto:support@romanbeauty.com">
+              <span>support@romanbeauty.com</span>
             </a>
           </div>
         </div>
