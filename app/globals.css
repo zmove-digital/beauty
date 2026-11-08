@@ -2739,6 +2739,13 @@ a.cropped-image-wrapper {
   margin-bottom: 2rem;
   width: 220px;
 }
+.footer__logo-link {
+  display: inline-block;
+  transition: opacity 0.3s ease;
+}
+.footer__logo-link:hover {
+  opacity: 0.75;
+}
 .footer .footer__form {
   display: flex;
   flex-direction: column;

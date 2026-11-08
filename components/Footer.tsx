@@ -9,7 +9,9 @@ export function Footer() {
         <div className="footer__grid">
           <div className="footer__newsletter width-33">
             <div className="footer__logo">
-              <img src="/images/Youmi_Beauty_Logo_whit.png" alt="Youmi Beauty" width={300} height={27} />
+              <Link href="/" className="footer__logo-link" aria-label="Youmi Beauty — Home">
+                <img src="/images/Youmi_Beauty_Logo_whit.png" alt="Youmi Beauty" width={300} height={27} />
+              </Link>
             </div>
             <NewsletterForm />
           </div>
