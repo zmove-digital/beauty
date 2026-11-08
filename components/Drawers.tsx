@@ -330,6 +330,13 @@ export function Drawers() {
                 <Link href="/checkout" className="btn btn--primary btn--full" onClick={closeDrawer}>
                   Checkout
                 </Link>
+                <button
+                  type="button"
+                  className="btn btn--outline btn--full btn--compact"
+                  onClick={closeDrawer}
+                >
+                  Continue shopping
+                </button>
                 <Link href="/cart" className="bag-summary__view" onClick={closeDrawer}>
                   View bag
                 </Link>
