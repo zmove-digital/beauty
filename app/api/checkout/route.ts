@@ -30,7 +30,7 @@ type CheckoutPayload = {
 function makeOrderNumber(): string {
   const stamp = Date.now().toString(36).toUpperCase().slice(-6);
   const random = Math.floor(100 + Math.random() * 900);
-  return `YB-${stamp}-${random}`;
+  return `RB-${stamp}-${random}`;
 }
 
 export async function POST(request: Request) {

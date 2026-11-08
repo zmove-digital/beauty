@@ -10,6 +10,7 @@ import {
   type ReactNode,
 } from "react";
 import type { CartLine } from "@/lib/types";
+import { migrateHandle, migrateKey, readStorageMigrated } from "@/lib/browser-storage";
 
 export type DrawerName = "nav" | "search" | "bag" | "account" | "wishlist" | "language" | null;
 
@@ -40,14 +41,15 @@ type StoreContextValue = {
 
 const StoreContext = createContext<StoreContextValue | null>(null);
 
-const CART_KEY = "youmi.cart.v1";
-const WISHLIST_KEY = "youmi.wishlist.v1";
+const CART_KEY = "roman.cart.v1";
+const LEGACY_CART_KEY = "youmi.cart.v1";
+const WISHLIST_KEY = "roman.wishlist.v1";
+const LEGACY_WISHLIST_KEY = "youmi.wishlist.v1";
 
-function readStorage<T>(key: string, fallback: T): T {
-  if (typeof window === "undefined") return fallback;
+function readStorage<T>(key: string, legacyKey: string, fallback: T): T {
+  const raw = readStorageMigrated(key, legacyKey);
+  if (!raw) return fallback;
   try {
-    const raw = window.localStorage.getItem(key);
-    if (!raw) return fallback;
     return JSON.parse(raw) as T;
   } catch {
     return fallback;
@@ -61,8 +63,19 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [drawer, setDrawer] = useState<DrawerName>(null);
 
   useEffect(() => {
-    setCart(readStorage<CartLine[]>(CART_KEY, []));
-    setWishlist(readStorage<WishlistItem[]>(WISHLIST_KEY, []));
+    setCart(
+      readStorage<CartLine[]>(CART_KEY, LEGACY_CART_KEY, []).map((line) => ({
+        ...line,
+        handle: migrateHandle(line.handle),
+        key: migrateKey(line.key),
+      }))
+    );
+    setWishlist(
+      readStorage<WishlistItem[]>(WISHLIST_KEY, LEGACY_WISHLIST_KEY, []).map((item) => ({
+        ...item,
+        handle: migrateHandle(item.handle),
+      }))
+    );
     setHydrated(true);
   }, []);
 

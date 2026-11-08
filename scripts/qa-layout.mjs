@@ -6,7 +6,7 @@ const port = 9222;
 const routes = [
   "/",
   "/collections/best-sellers",
-  "/products/youmi-beauty-glamdry",
+  "/products/roman-beauty-glamdry",
   "/search?q=lenses",
   "/cart",
   "/checkout",

@@ -5,7 +5,7 @@ export type NavLink = {
 };
 
 export const navPrimary: NavLink[] = [
-  { label: "YB Technique", href: "/collections/yb-technique" },
+  { label: "RB Technique", href: "/collections/rb-technique" },
   { label: "Rituals", href: "/collections/rituals" },
   { label: "Body Care", href: "/collections/body-care" },
   { label: "Hair Care", href: "/collections/hair-care" },
@@ -15,13 +15,13 @@ export const navPrimary: NavLink[] = [
     children: [
       { label: "Without Power Monthly", href: "/collections/colored-contact-lenses-without-power-monthly" },
       { label: "With Power Monthly", href: "/collections/colored-contact-lenses-with-power-monthly" },
-      { label: "Lens Solution", href: "/products/youmi-beauty-lens-solution-120-ml" },
+      { label: "Lens Solution", href: "/products/roman-beauty-lens-solution-120-ml" },
     ],
   },
   { label: "Clip-In Extensions", href: "/collections/hair-clip-in-extensions" },
   { label: "Tape-In Extensions", href: "/collections/tape-in-extension" },
   { label: "Ponytail Extensions", href: "/collections/ponytail-hair-extension" },
-  { label: "Hair Curler", href: "/products/youmi-beauty-hair-curler" },
+  { label: "Hair Curler", href: "/products/roman-beauty-hair-curler" },
   { label: "Hair Dryer", href: "/collections/hair-dryer" },
   { label: "Eye Lashes", href: "/collections/eye-lashes" },
   { label: "Hair Essentials", href: "/collections/hair-essentials" },

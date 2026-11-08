@@ -37,6 +37,21 @@ const nextConfig: NextConfig = {
     formats: ["image/avif", "image/webp"],
   },
   eslint: { ignoreDuringBuilds: true },
+  async redirects() {
+    return [
+      // Keep the pre-rebrand product and collection URLs working.
+      {
+        source: "/products/youmi-beauty-:handle",
+        destination: "/products/roman-beauty-:handle",
+        permanent: true,
+      },
+      {
+        source: "/collections/yb-technique",
+        destination: "/collections/rb-technique",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [{ source: "/(.*)", headers: securityHeaders }];
   },

@@ -10,7 +10,7 @@ const slides = [
     alt: "Roman Beauty GlamDry hair dryer",
     background: "#f3e3d3",
     heading: "YB GlamDry",
-    href: "/products/youmi-beauty-glamdry",
+    href: "/products/roman-beauty-glamdry",
     cta: "SHOP NOW",
   },
   {

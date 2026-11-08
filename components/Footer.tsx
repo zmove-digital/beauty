@@ -21,7 +21,7 @@ export function Footer() {
               <span>HAIR ESSENTIALS</span>
             </div>
             <nav className="footer__menu-links" aria-label="Hair essentials">
-              <Link href="/products/youmi-beauty-hair-curler">Hair Curler</Link>
+              <Link href="/products/roman-beauty-hair-curler">Hair Curler</Link>
               <Link href="/collections/hair-dryer">Hair Dryer</Link>
               <Link href="/collections/hair-tools">Hair Tools</Link>
             </nav>
@@ -38,7 +38,7 @@ export function Footer() {
               <Link href="/collections/colored-contact-lenses-with-power-monthly">
                 Colored Contact Lenses With Power
               </Link>
-              <Link href="/products/youmi-beauty-lens-solution-120-ml">Lens Solution</Link>
+              <Link href="/products/roman-beauty-lens-solution-120-ml">Lens Solution</Link>
             </nav>
           </div>
 

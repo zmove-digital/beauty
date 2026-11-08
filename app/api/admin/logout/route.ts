@@ -1,17 +1,22 @@
 import { NextResponse } from "next/server";
-import { ADMIN_COOKIE } from "@/lib/admin-auth";
+import { ADMIN_COOKIE, LEGACY_ADMIN_COOKIE } from "@/lib/admin-auth";
 
 export async function POST(request: Request) {
   const response = NextResponse.json({ ok: true });
-  response.cookies.set({
-    name: ADMIN_COOKIE,
-    value: "",
-    httpOnly: true,
-    sameSite: "lax",
-    secure: isSecureRequest(request),
-    path: "/",
-    maxAge: 0,
-  });
+  const secure = isSecureRequest(request);
+
+  for (const name of [ADMIN_COOKIE, LEGACY_ADMIN_COOKIE]) {
+    response.cookies.set({
+      name,
+      value: "",
+      httpOnly: true,
+      sameSite: "lax",
+      secure,
+      path: "/",
+      maxAge: 0,
+    });
+  }
+
   return response;
 }
 

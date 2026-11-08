@@ -7,8 +7,8 @@
       "position": 1
     },
     {
-      "handle": "yb-technique",
-      "title": "YB Technique",
+      "handle": "rb-technique",
+      "title": "RB Technique",
       "description": "Our signature approach to effortless hair. High-performance tools and extension systems designed to be used at home.",
       "position": 2
     },
@@ -105,7 +105,7 @@
   ],
   "products": [
     {
-      "handle": "youmi-beauty-glamdry",
+      "handle": "roman-beauty-glamdry",
       "title": "GlamDry Hair Dryer",
       "subtitle": "The blowout of your dreams",
       "price": 462,
@@ -120,11 +120,11 @@
         { "src": "/images/Youmi_beauty_glam_dryer_styling_set.png", "alt": "GlamDry styling set" },
         { "src": "/images/ICONIC_HAIR_DRYER.jpg", "alt": "GlamDry high-speed dryer" }
       ],
-      "collections": ["hair-tools", "hair-dryer", "yb-technique", "best-sellers"],
+      "collections": ["hair-tools", "hair-dryer", "rb-technique", "best-sellers"],
       "options": [
         { "name": "Choose Your Add-on", "values": ["Round Brush Size 25", "Round Brush Size 45", "Hair Clips"] }
       ],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Hair Tools", "SKU": "YB-GLAMDRY-01", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Hair Tools", "SKU": "RB-GLAMDRY-01", "Availability": "In Stock" },
       "description": "<p><strong><em>The blowout of your dreams</em></strong></p><p>Meet the GlamDry Hair Dryer — an 110,000 RPM brushless motor built for the smoothest, shiniest blowout you can get at home, with minimal heat damage.</p><h3>Key Features</h3><ul><li>High-speed 110,000 RPM brushless motor for ultra-fast drying</li><li>200 million negative ions for smooth, shiny, frizz-free hair</li><li>3 temperature settings + 2 wind speed settings for full control</li><li>2 styling nozzles included for versatile styling</li><li>Intelligent thermostat sensor for safe, consistent heat</li></ul><h3>Product Specifications</h3><ul><li>Motor: 110,000 RPM</li><li>Power: 1600W</li><li>Voltage: 110/240V 50-60Hz</li><li>Material: PC+ABS</li></ul><h3>FAQ</h3><p><strong>What makes the GlamDry different from a regular hair dryer?</strong> The GlamDry uses a high-speed motor, resulting in faster drying, less heat damage and more shine.</p><p><strong>Is it suitable for all hair types?</strong> Yes, the multiple temperature and speed settings make it suitable for fine, thick, curly and colour-treated hair.</p>",
       "details": [
         { "title": "Shipping & Delivery", "content": "Dispatched from Dubai within 1 business day. UAE delivery in 1–3 working days, GCC in 3–5 working days and worldwide in 5–9 working days. Duties may apply outside the UAE." },
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "handle": "youmi-beauty-hair-dryer-1300w",
+      "handle": "roman-beauty-hair-dryer-1300w",
       "title": "Hair Dryer 1300W | Roman Beauty",
       "subtitle": "Compact power, everyday polish",
       "price": 294,
@@ -148,11 +148,11 @@
         { "src": "/images/Youmibeautyhairdryerbestindubaiuaeksariayd.jpg", "alt": "1300W hair dryer detail" },
         { "src": "/images/Youmibeautyhairdryerbestindubaiuaeksariaydkuwaitqatar.jpg", "alt": "1300W hair dryer travel size" }
       ],
-      "collections": ["hair-tools", "hair-dryer", "yb-technique"],
+      "collections": ["hair-tools", "hair-dryer", "rb-technique"],
       "options": [
         { "name": "Plug Type", "values": ["UAE / UK", "EU", "US"] }
       ],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Hair Tools", "SKU": "YB-HD1300-02", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Hair Tools", "SKU": "RB-HD1300-02", "Availability": "In Stock" },
       "description": "<p>A lightweight 1300W dryer made for small bathrooms, big suitcases and quick morning resets. Ionic airflow smooths the cuticle while two heat and two speed settings keep fine hair from overheating.</p><h3>Why you'll love it</h3><ul><li>1300W with a concentrated nozzle for directional drying</li><li>Folding handle — ideal for travel</li><li>Dual voltage so it moves with you</li><li>Cool-shot button to set the style</li></ul>",
       "details": [
         { "title": "Shipping & Delivery", "content": "Dispatched from Dubai within 1 business day. UAE delivery in 1–3 working days. Worldwide shipping available at checkout." },
@@ -175,7 +175,7 @@
       ],
       "collections": ["best-sellers", "body-care", "rituals"],
       "options": [],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Body Care", "SKU": "YB-BODYEX-01", "Availability": "Sold Out" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Body Care", "SKU": "RB-BODYEX-01", "Availability": "Sold Out" },
       "description": "<p>A sugar-and-oil polish that buffs away dullness without stripping the skin. Warm amber and vanilla linger long after the shower.</p><h3>How to use</h3><p>Massage into damp skin in circular motions twice a week. Rinse and follow with body oil or cream.</p>",
       "details": [
         { "title": "Ingredients", "content": "Sucrose, cocos nucifera oil, prunus amygdalus dulcis oil, vitis vinifera seed oil, tocopherol, parfum." },
@@ -200,7 +200,7 @@
       "options": [
         { "name": "Length", "values": ["18 inch", "22 inch", "26 inch"] }
       ],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Clip-In Extensions", "SKU": "YB-COCO-CLIP", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Clip-In Extensions", "SKU": "RB-COCO-CLIP", "Availability": "In Stock" },
       "description": "<p>Our La Coco set adds length and density in under five minutes. Each weft is hand-tied from soft, ethically sourced human hair with a seamless, low-profile clip.</p><h3>What's included</h3><ul><li>7 wefts for a full, natural blend</li><li>Colour: soft chocolate brown</li><li>Heat-stylable up to 180°C</li><li>Care pouch and styling comb</li></ul>",
       "details": [
         { "title": "Colour Matching", "content": "Send us a photo in natural daylight on WhatsApp and we will match your set before dispatch — free of charge." },
@@ -224,7 +224,7 @@
       ],
       "collections": ["best-sellers", "rituals", "body-care", "hair-essentials"],
       "options": [],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Bath Ritual", "SKU": "YB-SALT-01", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Bath Ritual", "SKU": "RB-SALT-01", "Availability": "In Stock" },
       "description": "<p>Mineral-rich Himalayan salt blended with lavender and chamomile. Two scoops turn a bath into twenty minutes that belong to you.</p><h3>How to use</h3><p>Add two generous scoops to warm running water. Soak for 15–20 minutes. Rinse after and follow with body cream.</p>",
       "details": [
         { "title": "Ingredients", "content": "Sodium chloride (Himalayan pink salt), lavandula angustifolia oil, chamomilla recutita flower extract, dried lavender buds." },
@@ -249,7 +249,7 @@
       "options": [
         { "name": "Gift Wrap", "values": ["Beige ribbon", "Brown ribbon"] }
       ],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Gift Set", "SKU": "YB-RITUAL-SET", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Gift Set", "SKU": "RB-RITUAL-SET", "Availability": "In Stock" },
       "description": "<p>Everything for a complete at-home ritual: our Himalayan bath salts, Radiance body polish, a hand-poured candle and a soft cotton headband, boxed and ribboned.</p><h3>The set includes</h3><ul><li>Himalayan Lavender Bath Salts, 500 g</li><li>Radiance Renewal Body Exfoliator, 250 g</li><li>Amber &amp; fig candle, 180 g</li><li>Cotton spa headband</li></ul>",
       "details": [
         { "title": "Gift Wrapping", "content": "Every set arrives in a reusable kraft box with a hand-tied ribbon. Add a personalised note at checkout." },
@@ -274,7 +274,7 @@
       "options": [
         { "name": "Length", "values": ["18 inch", "22 inch", "26 inch"] }
       ],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Clip-In Extensions", "SKU": "YB-CARAMEL-CLIP", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Clip-In Extensions", "SKU": "RB-CARAMEL-CLIP", "Availability": "In Stock" },
       "description": "<p>A sunlit caramel that catches light like a fresh gloss. La Salty Caramel is our most requested shade for warm undertones and balayage blends.</p><h3>Details</h3><ul><li>Hand-tied human hair, 120 g per set</li><li>7 wefts with silicone-lined clips</li><li>Heat-stylable up to 180°C</li><li>Colour: salted caramel with honey dimension</li></ul>",
       "details": [
         { "title": "Colour Matching", "content": "Not sure between La Coco and La Salty Caramel? Send a daylight photo on WhatsApp and we will advise." },
@@ -299,7 +299,7 @@
       "options": [
         { "name": "Style", "values": ["Soft Everyday", "Wispy Cat-Eye", "Full Glam"] }
       ],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Eye Lashes", "SKU": "YB-LASH-SUM", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Eye Lashes", "SKU": "RB-LASH-SUM", "Availability": "In Stock" },
       "description": "<p>Featherlight lash strips on a flexible cotton band. Reusable up to 20 wears with care, and easy to trim to your eye shape.</p><h3>How to apply</h3><p>Curl your natural lashes, apply a thin line of adhesive to the band, wait 30 seconds, then press from the outer corner inward.</p>",
       "details": [
         { "title": "In the Box", "content": "One pair of reusable lashes and a travel case. Adhesive sold separately." },
@@ -324,7 +324,7 @@
       "options": [
         { "name": "Power", "values": ["Without Power", "With Power"] }
       ],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-CAPRI", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "RB-LENS-CAPRI", "Availability": "In Stock" },
       "description": "<p>Golden brown with a soft limbal ring — the shade that makes dark eyes look lit from within. Monthly wear, 14.2 mm diameter, 38% water content.</p><h3>Details</h3><ul><li>Monthly disposable</li><li>Base curve 8.6 mm</li><li>38% water content</li><li>2 lenses per box</li></ul>",
       "details": [
         { "title": "With Power", "content": "Select <em>With Power</em> and add your prescription in the order note at checkout. Our team confirms every prescription by WhatsApp before dispatch." },
@@ -349,7 +349,7 @@
       "options": [
         { "name": "Power", "values": ["Without Power", "With Power"] }
       ],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-TULUM", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "RB-LENS-TULUM", "Availability": "In Stock" },
       "description": "<p>A deep, inky blue with a natural finish — dramatic in photos, surprisingly wearable in daylight.</p><h3>Details</h3><ul><li>Monthly disposable</li><li>Diameter 14.2 mm · base curve 8.6 mm</li><li>38% water content</li><li>2 lenses per box</li></ul>",
       "details": [
         { "title": "With Power", "content": "Choose <em>With Power</em> and leave your prescription in the checkout note. We will confirm the details before shipping." },
@@ -374,7 +374,7 @@
       "options": [
         { "name": "Power", "values": ["Without Power", "With Power"] }
       ],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-BALI", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "RB-LENS-BALI", "Availability": "In Stock" },
       "description": "<p>Hazel-green with a hazel core — the most natural-looking shade in the collection, and our team's everyday favourite.</p><h3>Details</h3><ul><li>Monthly disposable</li><li>Diameter 14.2 mm · base curve 8.6 mm</li><li>38% water content</li><li>2 lenses per box</li></ul>",
       "details": [
         { "title": "With Power", "content": "Choose <em>With Power</em> and leave your prescription in the checkout note. We will confirm the details before shipping." },
@@ -399,7 +399,7 @@
       "options": [
         { "name": "Power", "values": ["Without Power", "With Power"] }
       ],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-IBIZA", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "RB-LENS-IBIZA", "Availability": "In Stock" },
       "description": "<p>Warm caramel with a subtle golden rim. La Ibiza adds warmth without changing the shape of your eye.</p><h3>Details</h3><ul><li>Monthly disposable</li><li>Diameter 14.2 mm · base curve 8.6 mm</li><li>38% water content</li><li>2 lenses per box</li></ul>",
       "details": [
         { "title": "With Power", "content": "Choose <em>With Power</em> and leave your prescription in the checkout note. We will confirm the details before shipping." },
@@ -424,7 +424,7 @@
       "options": [
         { "name": "Power", "values": ["Without Power", "With Power"] }
       ],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-CANNES", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "RB-LENS-CANNES", "Availability": "In Stock" },
       "description": "<p>An easy, chocolate brown that reads as your own eyes — only brighter. A safe first pair if you are new to colour.</p><h3>Details</h3><ul><li>Monthly disposable</li><li>Diameter 14.2 mm · base curve 8.6 mm</li><li>38% water content</li><li>2 lenses per box</li></ul>",
       "details": [
         { "title": "With Power", "content": "Choose <em>With Power</em> and leave your prescription in the checkout note. We will confirm the details before shipping." },
@@ -449,7 +449,7 @@
       "options": [
         { "name": "Power", "values": ["Without Power", "With Power"] }
       ],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-MARRAKECH", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "RB-LENS-MARRAKECH", "Availability": "In Stock" },
       "description": "<p>Soft sage green with a golden centre. Unexpected, flattering and made for golden-hour photographs.</p><h3>Details</h3><ul><li>Monthly disposable</li><li>Diameter 14.2 mm · base curve 8.6 mm</li><li>38% water content</li><li>2 lenses per box</li></ul>",
       "details": [
         { "title": "With Power", "content": "Choose <em>With Power</em> and leave your prescription in the checkout note. We will confirm the details before shipping." },
@@ -470,11 +470,11 @@
         { "src": "/images/002A8020.jpg", "alt": "Ash blonde ponytail extension" },
         { "src": "/images/Compress-002A7292-964747.jpg", "alt": "Ash blonde ponytail styled" }
       ],
-      "collections": ["ponytail-hair-extension", "hair-essentials", "yb-technique"],
+      "collections": ["ponytail-hair-extension", "hair-essentials", "rb-technique"],
       "options": [
         { "name": "Length", "values": ["20 inch", "24 inch"] }
       ],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Ponytail Extension", "SKU": "YB-PONY-ASH", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Ponytail Extension", "SKU": "RB-PONY-ASH", "Availability": "In Stock" },
       "description": "<p>A cool ash blonde ponytail on a wrap-around band. One piece, three minutes, and a completely different silhouette.</p><h3>Details</h3><ul><li>100% human hair, 110 g</li><li>Wrap-around style with a hidden comb</li><li>Heat-stylable up to 180°C</li><li>Colour: cool ash blonde with dimension</li></ul>",
       "details": [
         { "title": "How to Wear", "content": "Tie your hair into a low ponytail, place the extension over it, wrap the band and secure with the comb. Blend with a few curls." },
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "handle": "youmi-beauty-hair-curler",
+      "handle": "roman-beauty-hair-curler",
       "title": "Roman Beauty Hair Curler",
       "subtitle": "Curls that hold their shape",
       "price": 399,
@@ -495,11 +495,11 @@
         { "src": "/images/2601647542867.jpg", "alt": "Roman Beauty hair curler" },
         { "src": "/images/Compress-002A7329-277208.jpg", "alt": "Roman Beauty hair curler in use" }
       ],
-      "collections": ["hair-tools", "hair-curler", "yb-technique"],
+      "collections": ["hair-tools", "hair-curler", "rb-technique"],
       "options": [
         { "name": "Barrel Size", "values": ["32 mm", "38 mm"] }
       ],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Hair Tools", "SKU": "YB-CURL-32", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Hair Tools", "SKU": "RB-CURL-32", "Availability": "In Stock" },
       "description": "<p>A ceramic-barrel curler with even heat and a cool-touch tip. Negative-ion coating seals the cuticle for curls that stay soft, not crispy.</p><h3>Details</h3><ul><li>Adjustable 120–200°C</li><li>Ceramic ionic barrel</li><li>60-minute auto shut-off</li><li>Universal voltage</li></ul>",
       "details": [
         { "title": "How to Use", "content": "Section dry hair, wrap 2–3 cm sections around the barrel, hold 8–10 seconds and release. Set with a light mist of hairspray." },
@@ -507,7 +507,7 @@
       ]
     },
     {
-      "handle": "youmi-beauty-lens-solution-120-ml",
+      "handle": "roman-beauty-lens-solution-120-ml",
       "title": "Roman Beauty Lens Solution 120 ml",
       "subtitle": "Clean, comfortable, every day",
       "price": 60,
@@ -521,7 +521,7 @@
       ],
       "collections": ["lenses", "hair-essentials"],
       "options": [],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Lens Solution", "SKU": "YB-SOL-120", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Lens Solution", "SKU": "RB-SOL-120", "Availability": "In Stock" },
       "description": "<p>A gentle multi-purpose solution for daily cleaning, rinsing and storage of soft contact lenses. 120 ml travel-friendly bottle.</p><h3>How to use</h3><p>Rinse each lens with solution and store in a clean case filled with fresh solution. Replace the solution daily.</p>",
       "details": [
         { "title": "Contents", "content": "120 ml multi-purpose solution and a lens case." },
@@ -529,7 +529,7 @@
       ]
     },
     {
-      "handle": "youmi-beauty-body-wash",
+      "handle": "roman-beauty-body-wash",
       "title": "Roman Beauty Nourishing Body Wash",
       "subtitle": "Soft skin, quietly scented",
       "price": 145,
@@ -544,7 +544,7 @@
       ],
       "collections": ["body-care", "rituals"],
       "options": [],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Body Care", "SKU": "YB-WASH-01", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Body Care", "SKU": "RB-WASH-01", "Availability": "In Stock" },
       "description": "<p>A creamy, low-foam wash with oat extract and glycerin. Cleans without that tight, stripped feeling — and leaves a soft amber trail.</p><h3>Details</h3><ul><li>300 ml</li><li>Sulphate-free and pH balanced</li><li>Suitable for sensitive skin</li></ul>",
       "details": [
         { "title": "How to Use", "content": "Massage onto damp skin, rinse thoroughly and follow with body cream or oil." },
@@ -569,7 +569,7 @@
       "options": [
         { "name": "Length", "values": ["20 inch", "24 inch"] }
       ],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Tape-In Extensions", "SKU": "YB-TAPE-BROWN", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Tape-In Extensions", "SKU": "RB-TAPE-BROWN", "Availability": "In Stock" },
       "description": "<p>Twenty hand-taped wefts of soft brown human hair. The low-profile adhesive lies flat against the scalp, so hair moves as one.</p><h3>Details</h3><ul><li>20 pieces, 2.5 g per weft</li><li>100% remy human hair</li><li>Recommended for professional application</li><li>Lasts 6–8 weeks with care</li></ul>",
       "details": [
         { "title": "Application", "content": "We recommend a professional install. Book our home hair service in Dubai, or ask your stylist to use a tape-in remover for safe removal." },
@@ -592,7 +592,7 @@
       ],
       "collections": ["hair-care", "hair-essentials"],
       "options": [],
-      "metadata": { "Vendor": "Roman Beauty", "Type": "Hair Care", "SKU": "YB-SERUM-01", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Hair Care", "SKU": "RB-SERUM-01", "Availability": "In Stock" },
       "description": "<p>A featherlight finishing serum with camellia oil and hydrolysed silk. Smooths flyaways on natural hair and extensions without weighing them down.</p><h3>Details</h3><ul><li>50 ml pump bottle</li><li>Silicone-free, heat-protectant up to 200°C</li><li>A little goes a long way — start with one pump</li></ul>",
       "details": [
         { "title": "How to Use", "content": "Warm one pump between palms and smooth over mid-lengths and ends on damp or dry hair." },

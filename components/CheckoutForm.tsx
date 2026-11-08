@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { money } from "@/lib/format";
+import { readStorageMigrated } from "@/lib/browser-storage";
 import { useStore } from "./providers";
 
 type CheckoutResult = {
@@ -19,7 +20,8 @@ type SavedOrder = CheckoutResult & {
   status: string;
 };
 
-const ORDERS_KEY = "youmi.orders.v1";
+const ORDERS_KEY = "roman.orders.v1";
+const LEGACY_ORDERS_KEY = "youmi.orders.v1";
 const FREE_SHIPPING_THRESHOLD = 300;
 const SHIPPING_FEE = 25;
 
@@ -140,7 +142,7 @@ export function CheckoutForm() {
       };
 
       try {
-        const stored = window.localStorage.getItem(ORDERS_KEY);
+        const stored = readStorageMigrated(ORDERS_KEY, LEGACY_ORDERS_KEY);
         const orders = stored ? (JSON.parse(stored) as SavedOrder[]) : [];
         window.localStorage.setItem(ORDERS_KEY, JSON.stringify([saved, ...orders].slice(0, 20)));
       } catch {

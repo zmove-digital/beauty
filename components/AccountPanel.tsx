@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { formatDate, money } from "@/lib/format";
+import { readStorageMigrated } from "@/lib/browser-storage";
 
 type SavedOrder = {
   orderNumber: string;
@@ -15,7 +16,8 @@ type SavedOrder = {
   persisted?: boolean;
 };
 
-const ORDERS_KEY = "youmi.orders.v1";
+const ORDERS_KEY = "roman.orders.v1";
+const LEGACY_ORDERS_KEY = "youmi.orders.v1";
 
 export function AccountPanel({ mode = "login" }: { mode?: "login" | "register" }) {
   const [orders, setOrders] = useState<SavedOrder[]>([]);
@@ -24,7 +26,7 @@ export function AccountPanel({ mode = "login" }: { mode?: "login" | "register" }
 
   useEffect(() => {
     try {
-      const raw = window.localStorage.getItem(ORDERS_KEY);
+      const raw = readStorageMigrated(ORDERS_KEY, LEGACY_ORDERS_KEY);
       setOrders(raw ? (JSON.parse(raw) as SavedOrder[]) : []);
     } catch {
       setOrders([]);

@@ -1,7 +1,8 @@
 import { createHmac, timingSafeEqual } from "node:crypto";
 import { cookies } from "next/headers";
 
-export const ADMIN_COOKIE = "youmi_admin";
+export const ADMIN_COOKIE = "roman_admin";
+export const LEGACY_ADMIN_COOKIE = "youmi_admin";
 const SESSION_TTL_MS = 1000 * 60 * 60 * 12;
 
 /** The admin area needs ADMIN_PASSWORD in the environment to be usable. */
@@ -10,7 +11,7 @@ export function isAdminConfigured(): boolean {
 }
 
 function secret(): string {
-  return process.env.ADMIN_SESSION_SECRET ?? process.env.ADMIN_PASSWORD ?? "youmi-admin-dev-secret";
+  return process.env.ADMIN_SESSION_SECRET ?? process.env.ADMIN_PASSWORD ?? "roman-admin-dev-secret";
 }
 
 function sign(payload: string): string {
@@ -49,5 +50,7 @@ export const SESSION_MAX_AGE_SECONDS = Math.floor(SESSION_TTL_MS / 1000);
 /** Reads the session cookie inside server components and route handlers. */
 export async function hasAdminSession(): Promise<boolean> {
   const store = await cookies();
-  return verifySessionToken(store.get(ADMIN_COOKIE)?.value);
+  if (verifySessionToken(store.get(ADMIN_COOKIE)?.value)) return true;
+  // Sessions issued before the rebrand used the legacy cookie name.
+  return verifySessionToken(store.get(LEGACY_ADMIN_COOKIE)?.value);
 }
