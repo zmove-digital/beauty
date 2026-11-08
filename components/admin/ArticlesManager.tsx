@@ -22,7 +22,7 @@ const EMPTY: Draft = {
   excerpt: "",
   image: "",
   date: new Date().toISOString().slice(0, 10),
-  author: "Youmi Beauty",
+  author: "Roman Beauty",
   content: "",
 };
 

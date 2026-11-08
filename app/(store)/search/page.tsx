@@ -6,7 +6,7 @@ import { searchProducts } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Search",
-  description: "Search Youmi Beauty for hair tools, extensions, coloured lenses and body rituals.",
+  description: "Search Roman Beauty for hair tools, extensions, coloured lenses and body rituals.",
 };
 
 const popular = ["GlamDry", "Clip-in", "La Capri", "Bath salts", "Lens solution", "Tape-in"];
@@ -85,7 +85,7 @@ export default async function SearchPage({ searchParams }: PageProps) {
           </>
         ) : (
           <p className="search-summary">
-            Search the full Youmi collection — or start with one of the popular searches above.
+            Search the full Roman Beauty collection — or start with one of the popular searches above.
           </p>
         )}
         </div>

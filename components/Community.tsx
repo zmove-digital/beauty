@@ -16,7 +16,7 @@ export function Community() {
                   muted
                   preload="metadata"
                   poster={video.poster}
-                  aria-label={`Youmi Beauty community video ${index + 1}`}
+                  aria-label={`Roman Beauty community video ${index + 1}`}
                 >
                   <source src={video.src} type="video/mp4" />
                   <img src={video.poster} alt="" loading="lazy" />

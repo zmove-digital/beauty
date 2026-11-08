@@ -84,7 +84,7 @@ function mapArticle(row: Row): Article {
     excerpt: row.excerpt ?? "",
     image: row.image ?? "",
     date: row.date ?? row.created_at ?? "",
-    author: row.author ?? "Youmi Beauty",
+    author: row.author ?? "Roman Beauty",
     content: row.content ?? "",
   };
 }

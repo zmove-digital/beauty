@@ -37,7 +37,7 @@ export function AccountPanel({ mode = "login" }: { mode?: "login" | "register" }
     <div className="account-page">
       <div className="container">
         <div className="account-hero">
-          <span className="eyebrow">{mode === "register" ? "Join Youmi" : "Welcome back"}</span>
+          <span className="eyebrow">{mode === "register" ? "Join Roman Beauty" : "Welcome back"}</span>
           <h1 className="h2">{mode === "register" ? "Create your account" : "Your account"}</h1>
           <p style={{ maxWidth: "38rem", lineHeight: 1.6, opacity: 0.75 }}>
             Sign in to follow your orders, save your favourite pieces and check out faster.
@@ -49,7 +49,7 @@ export function AccountPanel({ mode = "login" }: { mode?: "login" | "register" }
             <h2>{mode === "register" ? "Create an account" : "Sign in"}</h2>
             <p>
               {mode === "register"
-                ? "Create a Youmi account to keep your details and order history together."
+                ? "Create a Roman Beauty account to keep your details and order history together."
                 : "Use the email you ordered with to see your order history on this device."}
             </p>
 
@@ -102,7 +102,7 @@ export function AccountPanel({ mode = "login" }: { mode?: "login" | "register" }
                 {mode === "register" ? (
                   <Link href="/account">Already have an account? Sign in</Link>
                 ) : (
-                  <Link href="/account?mode=register">New to Youmi? Create an account</Link>
+                  <Link href="/account?mode=register">New to Roman Beauty? Create an account</Link>
                 )}
               </li>
               <li>

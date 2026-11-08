@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: collection.title,
     description:
       collection.description ||
-      `Shop ${collection.title} at Youmi Beauty — dispatched from Dubai.`,
+      `Shop ${collection.title} at Roman Beauty — dispatched from Dubai.`,
     alternates: { canonical: `/collections/${collection.handle}` },
   };
 }

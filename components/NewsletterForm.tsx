@@ -46,7 +46,7 @@ export function NewsletterForm() {
       />
       <div className="newsletter__text">
         <p>
-          By registering, I agree to receive emails from Youmi and selected partners. Read our
+          By registering, I agree to receive emails from Roman Beauty and selected partners. Read our
           Privacy Policy for details.
         </p>
       </div>
@@ -57,7 +57,7 @@ export function NewsletterForm() {
           checked={consent}
           onChange={(event) => setConsent(event.target.checked)}
         />
-        <span>Yes YOUMI! Send me your newsletters.</span>
+        <span>Yes ROMAN BEAUTY! Send me your newsletters.</span>
       </label>
       <button type="submit" className="btn btn--primary newsletter__submit" disabled={status === "loading"}>
         {status === "loading" ? "Subscribing…" : "Subscribe"}

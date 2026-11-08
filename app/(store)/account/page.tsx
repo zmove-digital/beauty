@@ -3,7 +3,7 @@ import { AccountPanel } from "@/components/AccountPanel";
 
 export const metadata: Metadata = {
   title: "Your account",
-  description: "Sign in, create a Youmi Beauty account and follow your orders.",
+  description: "Sign in, create a Roman Beauty account and follow your orders.",
 };
 
 type PageProps = {

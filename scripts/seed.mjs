@@ -162,7 +162,7 @@ async function seedArticles() {
         excerpt: article.excerpt ?? "",
         image: article.image ?? "",
         date: article.date ?? null,
-        author: article.author ?? "Youmi Beauty",
+        author: article.author ?? "Roman Beauty",
         content: article.content ?? "",
       },
       { onConflict: "handle" }

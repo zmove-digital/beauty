@@ -21,7 +21,7 @@ export default async function HomePage() {
   return (
     <>
       <h1 className="visually-hidden">
-        Youmi Beauty — salon-grade hair tools, human hair extensions, coloured contact lenses and body
+        Roman Beauty — salon-grade hair tools, human hair extensions, coloured contact lenses and body
         rituals, dispatched from Dubai.
       </h1>
 

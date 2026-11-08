@@ -9,7 +9,7 @@ export const revalidate = 30;
 export const metadata: Metadata = {
   title: "The Journal",
   description:
-    "Styling notes, extension care and lens guides from the Youmi Beauty team in Dubai.",
+    "Styling notes, extension care and lens guides from the Roman Beauty team in Dubai.",
   alternates: { canonical: "/blogs/organization-blog" },
 };
 
@@ -28,7 +28,7 @@ export default async function BlogIndexPage() {
         />
 
         <div className="hero-info">
-          <span className="eyebrow">The Youmi Journal</span>
+          <span className="eyebrow">The Roman Beauty Journal</span>
           <h1 className="h2">Notes on hair, lenses and rituals</h1>
           <p>
             Practical guides from our Dubai studio — how to choose extensions, care for coloured

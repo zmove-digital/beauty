@@ -26,7 +26,7 @@ export async function POST(request: Request) {
       excerpt: typeof body.excerpt === "string" ? body.excerpt : "",
       image: asString(body.image),
       date,
-      author: asString(body.author) || "Youmi Beauty",
+      author: asString(body.author) || "Roman Beauty",
       content: typeof body.content === "string" ? body.content : "",
     },
     { onConflict: "handle" },

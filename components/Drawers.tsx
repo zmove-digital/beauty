@@ -122,7 +122,7 @@ export function Drawers() {
         aria-hidden={drawer !== "nav"}
       >
         <div className="drawer-panel">
-          <DrawerHeader eyebrow="Youmi Beauty" title="Menu" onClose={closeDrawer} />
+          <DrawerHeader eyebrow="Roman Beauty" title="Menu" onClose={closeDrawer} />
           <nav className="nav-drawer-primary" aria-label="Main menu">
             <ul>
               {navPrimary.map((link) => (
@@ -345,7 +345,7 @@ export function Drawers() {
         aria-hidden={drawer !== "account"}
       >
         <div className="drawer-panel">
-          <DrawerHeader eyebrow="Youmi Beauty" title="Account" onClose={closeDrawer} />
+          <DrawerHeader eyebrow="Roman Beauty" title="Account" onClose={closeDrawer} />
           <p className="drawer-intro">
             Sign in to follow your orders, save your favourite pieces and check out faster.
           </p>

@@ -10,12 +10,12 @@ export type StaticPage = {
 export const contentPages: Record<string, StaticPage> = {
   about: {
     handle: "about",
-    title: "About Youmi Beauty",
+    title: "About Roman Beauty",
     description:
       "A Dubai-born beauty house creating salon-grade hair tools, human hair extensions, coloured lenses and body rituals for everyday life.",
     eyebrow: "Our story",
     content: `
-      <p>Youmi Beauty began in Dubai with a simple idea: the rituals that make you feel most like yourself should be easy to reach, beautifully made and genuinely effective.</p>
+      <p>Roman Beauty began in Dubai with a simple idea: the rituals that make you feel most like yourself should be easy to reach, beautifully made and genuinely effective.</p>
       <p>We work with stylists, lens specialists and formulators to build a focused collection — high-performance hair tools, ethically sourced human hair, coloured contact lenses and mineral-rich body care. Every product is chosen for how it performs in real life, not just how it looks on a shelf.</p>
       <h2>Made for the way you get ready</h2>
       <p>Our pieces are designed to travel: from a quick morning blowout in a small Dubai apartment to a wedding in Riyadh or a long weekend in Europe. Universal voltage, compact cases and straightforward instructions come as standard.</p>
@@ -59,10 +59,10 @@ export const contentPages: Record<string, StaticPage> = {
     handle: "press",
     title: "Press",
     description:
-      "Brand information, product imagery and press contacts for Youmi Beauty.",
+      "Brand information, product imagery and press contacts for Roman Beauty.",
     eyebrow: "Press room",
     content: `
-      <p>Youmi Beauty is a Dubai-based beauty house creating salon-grade hair tools, human hair extensions, coloured contact lenses and body rituals. The collection is sold online and through selected stylists in the UAE and GCC.</p>
+      <p>Roman Beauty is a Dubai-based beauty house creating salon-grade hair tools, human hair extensions, coloured contact lenses and body rituals. The collection is sold online and through selected stylists in the UAE and GCC.</p>
       <h2>Brand facts</h2>
       <ul>
         <li>Founded in Dubai, United Arab Emirates.</li>
@@ -73,7 +73,7 @@ export const contentPages: Record<string, StaticPage> = {
       <h2>Press enquiries</h2>
       <p>For interviews, product samples or high-resolution imagery, contact <a href="mailto:Support@youmibeauty.com">Support@youmibeauty.com</a> with your outlet, deadline and request. We answer within one business day.</p>
       <h2>Using our imagery</h2>
-      <p>Images from this site may be used for editorial coverage of Youmi Beauty with credit. Please do not alter product colours or remove the brand name from lifestyle imagery.</p>
+      <p>Images from this site may be used for editorial coverage of Roman Beauty with credit. Please do not alter product colours or remove the brand name from lifestyle imagery.</p>
     `,
   },
   wholesale: {
@@ -104,7 +104,7 @@ export const contentPages: Record<string, StaticPage> = {
     handle: "affiliate",
     title: "Affiliate Programme",
     description:
-      "Earn commission by sharing Youmi Beauty products with your audience.",
+      "Earn commission by sharing Roman Beauty products with your audience.",
     eyebrow: "Creators",
     content: `
       <p>Our affiliate programme is for creators, stylists and publishers whose audience genuinely loves hair, beauty and self-care.</p>
@@ -121,7 +121,7 @@ export const contentPages: Record<string, StaticPage> = {
         <li>Respect for our hygiene and lens-safety guidelines.</li>
       </ul>
       <h2>Apply</h2>
-      <p>Send your name, social handle, audience size and a short note about how you would feature Youmi Beauty to <a href="mailto:Support@youmibeauty.com">Support@youmibeauty.com</a>.</p>
+      <p>Send your name, social handle, audience size and a short note about how you would feature Roman Beauty to <a href="mailto:Support@youmibeauty.com">Support@youmibeauty.com</a>.</p>
     `,
   },
 };
@@ -131,10 +131,10 @@ export const policyPages: Record<string, StaticPage> = {
     handle: "privacy-policy",
     title: "Privacy Policy",
     description:
-      "How Youmi Beauty collects, uses and protects your personal information.",
+      "How Roman Beauty collects, uses and protects your personal information.",
     updated: "3 November 2026",
     content: `
-      <p>This policy explains what information we collect when you visit the Youmi Beauty storefront, place an order or contact us, and how that information is used.</p>
+      <p>This policy explains what information we collect when you visit the Roman Beauty storefront, place an order or contact us, and how that information is used.</p>
       <h2>Information we collect</h2>
       <ul>
         <li><strong>Order details:</strong> name, email address, phone number, delivery address and order contents.</li>
@@ -159,7 +159,7 @@ export const policyPages: Record<string, StaticPage> = {
     handle: "refund-policy",
     title: "Refund Policy",
     description:
-      "Returns, exchanges and refunds for Youmi Beauty orders.",
+      "Returns, exchanges and refunds for Roman Beauty orders.",
     updated: "3 November 2026",
     content: `
       <p>We want you to love what you ordered. If something is not right, contact us and we will do our best to resolve it quickly.</p>
@@ -183,7 +183,7 @@ export const policyPages: Record<string, StaticPage> = {
     handle: "shipping-policy",
     title: "Shipping Policy",
     description:
-      "Dispatch times, delivery estimates and duties for Youmi Beauty orders.",
+      "Dispatch times, delivery estimates and duties for Roman Beauty orders.",
     updated: "3 November 2026",
     content: `
       <p>All orders are packed and dispatched from Dubai, United Arab Emirates.</p>

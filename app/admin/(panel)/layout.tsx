@@ -15,7 +15,7 @@ export default async function AdminPanelLayout({ children }: { children: ReactNo
     <>
       <aside className="admin-rail">
         <div className="admin-rail__brand">
-          <strong>Youmi Beauty</strong>
+          <strong>Roman Beauty</strong>
           <span>Admin</span>
         </div>
 

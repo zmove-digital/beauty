@@ -3,7 +3,7 @@ import { CheckoutForm } from "@/components/CheckoutForm";
 
 export const metadata: Metadata = {
   title: "Checkout",
-  description: "Complete your Youmi Beauty order — dispatched from Dubai.",
+  description: "Complete your Roman Beauty order — dispatched from Dubai.",
 };
 
 export default function CheckoutPage() {

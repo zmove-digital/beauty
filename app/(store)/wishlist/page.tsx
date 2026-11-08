@@ -3,7 +3,7 @@ import { WishlistView } from "@/components/WishlistView";
 
 export const metadata: Metadata = {
   title: "Wishlist",
-  description: "Pieces you have saved from the Youmi Beauty collection.",
+  description: "Pieces you have saved from the Roman Beauty collection.",
 };
 
 export default function WishlistPage() {

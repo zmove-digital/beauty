@@ -99,7 +99,7 @@
     {
       "handle": "home-hair-services",
       "title": "Home Hair Services",
-      "description": "Book a Youmi stylist for extensions, colour or a blowout — in the comfort of your home.",
+      "description": "Book a Roman Beauty stylist for extensions, colour or a blowout — in the comfort of your home.",
       "position": 17
     }
   ],
@@ -124,7 +124,7 @@
       "options": [
         { "name": "Choose Your Add-on", "values": ["Round Brush Size 25", "Round Brush Size 45", "Hair Clips"] }
       ],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Hair Tools", "SKU": "YB-GLAMDRY-01", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Hair Tools", "SKU": "YB-GLAMDRY-01", "Availability": "In Stock" },
       "description": "<p><strong><em>The blowout of your dreams</em></strong></p><p>Meet the GlamDry Hair Dryer — an 110,000 RPM brushless motor built for the smoothest, shiniest blowout you can get at home, with minimal heat damage.</p><h3>Key Features</h3><ul><li>High-speed 110,000 RPM brushless motor for ultra-fast drying</li><li>200 million negative ions for smooth, shiny, frizz-free hair</li><li>3 temperature settings + 2 wind speed settings for full control</li><li>2 styling nozzles included for versatile styling</li><li>Intelligent thermostat sensor for safe, consistent heat</li></ul><h3>Product Specifications</h3><ul><li>Motor: 110,000 RPM</li><li>Power: 1600W</li><li>Voltage: 110/240V 50-60Hz</li><li>Material: PC+ABS</li></ul><h3>FAQ</h3><p><strong>What makes the GlamDry different from a regular hair dryer?</strong> The GlamDry uses a high-speed motor, resulting in faster drying, less heat damage and more shine.</p><p><strong>Is it suitable for all hair types?</strong> Yes, the multiple temperature and speed settings make it suitable for fine, thick, curly and colour-treated hair.</p>",
       "details": [
         { "title": "Shipping & Delivery", "content": "Dispatched from Dubai within 1 business day. UAE delivery in 1–3 working days, GCC in 3–5 working days and worldwide in 5–9 working days. Duties may apply outside the UAE." },
@@ -134,7 +134,7 @@
     },
     {
       "handle": "youmi-beauty-hair-dryer-1300w",
-      "title": "Hair Dryer 1300W | Youmi Beauty",
+      "title": "Hair Dryer 1300W | Roman Beauty",
       "subtitle": "Compact power, everyday polish",
       "price": 294,
       "compareAtPrice": null,
@@ -144,7 +144,7 @@
       "featured": true,
       "images": [
         { "src": "/images/K67A2193copy.jpg", "alt": "Hair Dryer 1300W" },
-        { "src": "/images/Youmibeautyhairdryerbestindubai.jpg", "alt": "Youmi Beauty 1300W hair dryer" },
+        { "src": "/images/Youmibeautyhairdryerbestindubai.jpg", "alt": "Roman Beauty 1300W hair dryer" },
         { "src": "/images/Youmibeautyhairdryerbestindubaiuaeksariayd.jpg", "alt": "1300W hair dryer detail" },
         { "src": "/images/Youmibeautyhairdryerbestindubaiuaeksariaydkuwaitqatar.jpg", "alt": "1300W hair dryer travel size" }
       ],
@@ -152,7 +152,7 @@
       "options": [
         { "name": "Plug Type", "values": ["UAE / UK", "EU", "US"] }
       ],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Hair Tools", "SKU": "YB-HD1300-02", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Hair Tools", "SKU": "YB-HD1300-02", "Availability": "In Stock" },
       "description": "<p>A lightweight 1300W dryer made for small bathrooms, big suitcases and quick morning resets. Ionic airflow smooths the cuticle while two heat and two speed settings keep fine hair from overheating.</p><h3>Why you'll love it</h3><ul><li>1300W with a concentrated nozzle for directional drying</li><li>Folding handle — ideal for travel</li><li>Dual voltage so it moves with you</li><li>Cool-shot button to set the style</li></ul>",
       "details": [
         { "title": "Shipping & Delivery", "content": "Dispatched from Dubai within 1 business day. UAE delivery in 1–3 working days. Worldwide shipping available at checkout." },
@@ -175,7 +175,7 @@
       ],
       "collections": ["best-sellers", "body-care", "rituals"],
       "options": [],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Body Care", "SKU": "YB-BODYEX-01", "Availability": "Sold Out" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Body Care", "SKU": "YB-BODYEX-01", "Availability": "Sold Out" },
       "description": "<p>A sugar-and-oil polish that buffs away dullness without stripping the skin. Warm amber and vanilla linger long after the shower.</p><h3>How to use</h3><p>Massage into damp skin in circular motions twice a week. Rinse and follow with body oil or cream.</p>",
       "details": [
         { "title": "Ingredients", "content": "Sucrose, cocos nucifera oil, prunus amygdalus dulcis oil, vitis vinifera seed oil, tocopherol, parfum." },
@@ -200,7 +200,7 @@
       "options": [
         { "name": "Length", "values": ["18 inch", "22 inch", "26 inch"] }
       ],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Clip-In Extensions", "SKU": "YB-COCO-CLIP", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Clip-In Extensions", "SKU": "YB-COCO-CLIP", "Availability": "In Stock" },
       "description": "<p>Our La Coco set adds length and density in under five minutes. Each weft is hand-tied from soft, ethically sourced human hair with a seamless, low-profile clip.</p><h3>What's included</h3><ul><li>7 wefts for a full, natural blend</li><li>Colour: soft chocolate brown</li><li>Heat-stylable up to 180°C</li><li>Care pouch and styling comb</li></ul>",
       "details": [
         { "title": "Colour Matching", "content": "Send us a photo in natural daylight on WhatsApp and we will match your set before dispatch — free of charge." },
@@ -224,7 +224,7 @@
       ],
       "collections": ["best-sellers", "rituals", "body-care", "hair-essentials"],
       "options": [],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Bath Ritual", "SKU": "YB-SALT-01", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Bath Ritual", "SKU": "YB-SALT-01", "Availability": "In Stock" },
       "description": "<p>Mineral-rich Himalayan salt blended with lavender and chamomile. Two scoops turn a bath into twenty minutes that belong to you.</p><h3>How to use</h3><p>Add two generous scoops to warm running water. Soak for 15–20 minutes. Rinse after and follow with body cream.</p>",
       "details": [
         { "title": "Ingredients", "content": "Sodium chloride (Himalayan pink salt), lavandula angustifolia oil, chamomilla recutita flower extract, dried lavender buds." },
@@ -249,7 +249,7 @@
       "options": [
         { "name": "Gift Wrap", "values": ["Beige ribbon", "Brown ribbon"] }
       ],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Gift Set", "SKU": "YB-RITUAL-SET", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Gift Set", "SKU": "YB-RITUAL-SET", "Availability": "In Stock" },
       "description": "<p>Everything for a complete at-home ritual: our Himalayan bath salts, Radiance body polish, a hand-poured candle and a soft cotton headband, boxed and ribboned.</p><h3>The set includes</h3><ul><li>Himalayan Lavender Bath Salts, 500 g</li><li>Radiance Renewal Body Exfoliator, 250 g</li><li>Amber &amp; fig candle, 180 g</li><li>Cotton spa headband</li></ul>",
       "details": [
         { "title": "Gift Wrapping", "content": "Every set arrives in a reusable kraft box with a hand-tied ribbon. Add a personalised note at checkout." },
@@ -274,7 +274,7 @@
       "options": [
         { "name": "Length", "values": ["18 inch", "22 inch", "26 inch"] }
       ],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Clip-In Extensions", "SKU": "YB-CARAMEL-CLIP", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Clip-In Extensions", "SKU": "YB-CARAMEL-CLIP", "Availability": "In Stock" },
       "description": "<p>A sunlit caramel that catches light like a fresh gloss. La Salty Caramel is our most requested shade for warm undertones and balayage blends.</p><h3>Details</h3><ul><li>Hand-tied human hair, 120 g per set</li><li>7 wefts with silicone-lined clips</li><li>Heat-stylable up to 180°C</li><li>Colour: salted caramel with honey dimension</li></ul>",
       "details": [
         { "title": "Colour Matching", "content": "Not sure between La Coco and La Salty Caramel? Send a daylight photo on WhatsApp and we will advise." },
@@ -299,7 +299,7 @@
       "options": [
         { "name": "Style", "values": ["Soft Everyday", "Wispy Cat-Eye", "Full Glam"] }
       ],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Eye Lashes", "SKU": "YB-LASH-SUM", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Eye Lashes", "SKU": "YB-LASH-SUM", "Availability": "In Stock" },
       "description": "<p>Featherlight lash strips on a flexible cotton band. Reusable up to 20 wears with care, and easy to trim to your eye shape.</p><h3>How to apply</h3><p>Curl your natural lashes, apply a thin line of adhesive to the band, wait 30 seconds, then press from the outer corner inward.</p>",
       "details": [
         { "title": "In the Box", "content": "One pair of reusable lashes and a travel case. Adhesive sold separately." },
@@ -324,7 +324,7 @@
       "options": [
         { "name": "Power", "values": ["Without Power", "With Power"] }
       ],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-CAPRI", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-CAPRI", "Availability": "In Stock" },
       "description": "<p>Golden brown with a soft limbal ring — the shade that makes dark eyes look lit from within. Monthly wear, 14.2 mm diameter, 38% water content.</p><h3>Details</h3><ul><li>Monthly disposable</li><li>Base curve 8.6 mm</li><li>38% water content</li><li>2 lenses per box</li></ul>",
       "details": [
         { "title": "With Power", "content": "Select <em>With Power</em> and add your prescription in the order note at checkout. Our team confirms every prescription by WhatsApp before dispatch." },
@@ -349,7 +349,7 @@
       "options": [
         { "name": "Power", "values": ["Without Power", "With Power"] }
       ],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-TULUM", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-TULUM", "Availability": "In Stock" },
       "description": "<p>A deep, inky blue with a natural finish — dramatic in photos, surprisingly wearable in daylight.</p><h3>Details</h3><ul><li>Monthly disposable</li><li>Diameter 14.2 mm · base curve 8.6 mm</li><li>38% water content</li><li>2 lenses per box</li></ul>",
       "details": [
         { "title": "With Power", "content": "Choose <em>With Power</em> and leave your prescription in the checkout note. We will confirm the details before shipping." },
@@ -374,7 +374,7 @@
       "options": [
         { "name": "Power", "values": ["Without Power", "With Power"] }
       ],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-BALI", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-BALI", "Availability": "In Stock" },
       "description": "<p>Hazel-green with a hazel core — the most natural-looking shade in the collection, and our team's everyday favourite.</p><h3>Details</h3><ul><li>Monthly disposable</li><li>Diameter 14.2 mm · base curve 8.6 mm</li><li>38% water content</li><li>2 lenses per box</li></ul>",
       "details": [
         { "title": "With Power", "content": "Choose <em>With Power</em> and leave your prescription in the checkout note. We will confirm the details before shipping." },
@@ -399,7 +399,7 @@
       "options": [
         { "name": "Power", "values": ["Without Power", "With Power"] }
       ],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-IBIZA", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-IBIZA", "Availability": "In Stock" },
       "description": "<p>Warm caramel with a subtle golden rim. La Ibiza adds warmth without changing the shape of your eye.</p><h3>Details</h3><ul><li>Monthly disposable</li><li>Diameter 14.2 mm · base curve 8.6 mm</li><li>38% water content</li><li>2 lenses per box</li></ul>",
       "details": [
         { "title": "With Power", "content": "Choose <em>With Power</em> and leave your prescription in the checkout note. We will confirm the details before shipping." },
@@ -424,7 +424,7 @@
       "options": [
         { "name": "Power", "values": ["Without Power", "With Power"] }
       ],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-CANNES", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-CANNES", "Availability": "In Stock" },
       "description": "<p>An easy, chocolate brown that reads as your own eyes — only brighter. A safe first pair if you are new to colour.</p><h3>Details</h3><ul><li>Monthly disposable</li><li>Diameter 14.2 mm · base curve 8.6 mm</li><li>38% water content</li><li>2 lenses per box</li></ul>",
       "details": [
         { "title": "With Power", "content": "Choose <em>With Power</em> and leave your prescription in the checkout note. We will confirm the details before shipping." },
@@ -449,7 +449,7 @@
       "options": [
         { "name": "Power", "values": ["Without Power", "With Power"] }
       ],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-MARRAKECH", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Colored Lenses", "SKU": "YB-LENS-MARRAKECH", "Availability": "In Stock" },
       "description": "<p>Soft sage green with a golden centre. Unexpected, flattering and made for golden-hour photographs.</p><h3>Details</h3><ul><li>Monthly disposable</li><li>Diameter 14.2 mm · base curve 8.6 mm</li><li>38% water content</li><li>2 lenses per box</li></ul>",
       "details": [
         { "title": "With Power", "content": "Choose <em>With Power</em> and leave your prescription in the checkout note. We will confirm the details before shipping." },
@@ -474,7 +474,7 @@
       "options": [
         { "name": "Length", "values": ["20 inch", "24 inch"] }
       ],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Ponytail Extension", "SKU": "YB-PONY-ASH", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Ponytail Extension", "SKU": "YB-PONY-ASH", "Availability": "In Stock" },
       "description": "<p>A cool ash blonde ponytail on a wrap-around band. One piece, three minutes, and a completely different silhouette.</p><h3>Details</h3><ul><li>100% human hair, 110 g</li><li>Wrap-around style with a hidden comb</li><li>Heat-stylable up to 180°C</li><li>Colour: cool ash blonde with dimension</li></ul>",
       "details": [
         { "title": "How to Wear", "content": "Tie your hair into a low ponytail, place the extension over it, wrap the band and secure with the comb. Blend with a few curls." },
@@ -483,7 +483,7 @@
     },
     {
       "handle": "youmi-beauty-hair-curler",
-      "title": "Youmi Beauty Hair Curler",
+      "title": "Roman Beauty Hair Curler",
       "subtitle": "Curls that hold their shape",
       "price": 399,
       "compareAtPrice": null,
@@ -492,14 +492,14 @@
       "soldOut": false,
       "featured": false,
       "images": [
-        { "src": "/images/2601647542867.jpg", "alt": "Youmi Beauty hair curler" },
-        { "src": "/images/Compress-002A7329-277208.jpg", "alt": "Youmi Beauty hair curler in use" }
+        { "src": "/images/2601647542867.jpg", "alt": "Roman Beauty hair curler" },
+        { "src": "/images/Compress-002A7329-277208.jpg", "alt": "Roman Beauty hair curler in use" }
       ],
       "collections": ["hair-tools", "hair-curler", "yb-technique"],
       "options": [
         { "name": "Barrel Size", "values": ["32 mm", "38 mm"] }
       ],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Hair Tools", "SKU": "YB-CURL-32", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Hair Tools", "SKU": "YB-CURL-32", "Availability": "In Stock" },
       "description": "<p>A ceramic-barrel curler with even heat and a cool-touch tip. Negative-ion coating seals the cuticle for curls that stay soft, not crispy.</p><h3>Details</h3><ul><li>Adjustable 120–200°C</li><li>Ceramic ionic barrel</li><li>60-minute auto shut-off</li><li>Universal voltage</li></ul>",
       "details": [
         { "title": "How to Use", "content": "Section dry hair, wrap 2–3 cm sections around the barrel, hold 8–10 seconds and release. Set with a light mist of hairspray." },
@@ -508,7 +508,7 @@
     },
     {
       "handle": "youmi-beauty-lens-solution-120-ml",
-      "title": "Youmi Beauty Lens Solution 120 ml",
+      "title": "Roman Beauty Lens Solution 120 ml",
       "subtitle": "Clean, comfortable, every day",
       "price": 60,
       "compareAtPrice": null,
@@ -517,11 +517,11 @@
       "soldOut": false,
       "featured": false,
       "images": [
-        { "src": "/images/2023-12-2214-35-25_C_S4.jpg", "alt": "Youmi Beauty lens solution" }
+        { "src": "/images/2023-12-2214-35-25_C_S4.jpg", "alt": "Roman Beauty lens solution" }
       ],
       "collections": ["lenses", "hair-essentials"],
       "options": [],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Lens Solution", "SKU": "YB-SOL-120", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Lens Solution", "SKU": "YB-SOL-120", "Availability": "In Stock" },
       "description": "<p>A gentle multi-purpose solution for daily cleaning, rinsing and storage of soft contact lenses. 120 ml travel-friendly bottle.</p><h3>How to use</h3><p>Rinse each lens with solution and store in a clean case filled with fresh solution. Replace the solution daily.</p>",
       "details": [
         { "title": "Contents", "content": "120 ml multi-purpose solution and a lens case." },
@@ -530,7 +530,7 @@
     },
     {
       "handle": "youmi-beauty-body-wash",
-      "title": "Youmi Beauty Nourishing Body Wash",
+      "title": "Roman Beauty Nourishing Body Wash",
       "subtitle": "Soft skin, quietly scented",
       "price": 145,
       "compareAtPrice": null,
@@ -539,12 +539,12 @@
       "soldOut": false,
       "featured": false,
       "images": [
-        { "src": "/images/Body_wash_youmi_beauty.jpg", "alt": "Youmi Beauty nourishing body wash" },
-        { "src": "/images/Youmi_beauty_Body_care_Bundle.png", "alt": "Youmi Beauty body care ritual" }
+        { "src": "/images/Body_wash_youmi_beauty.jpg", "alt": "Roman Beauty nourishing body wash" },
+        { "src": "/images/Youmi_beauty_Body_care_Bundle.png", "alt": "Roman Beauty body care ritual" }
       ],
       "collections": ["body-care", "rituals"],
       "options": [],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Body Care", "SKU": "YB-WASH-01", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Body Care", "SKU": "YB-WASH-01", "Availability": "In Stock" },
       "description": "<p>A creamy, low-foam wash with oat extract and glycerin. Cleans without that tight, stripped feeling — and leaves a soft amber trail.</p><h3>Details</h3><ul><li>300 ml</li><li>Sulphate-free and pH balanced</li><li>Suitable for sensitive skin</li></ul>",
       "details": [
         { "title": "How to Use", "content": "Massage onto damp skin, rinse thoroughly and follow with body cream or oil." },
@@ -569,7 +569,7 @@
       "options": [
         { "name": "Length", "values": ["20 inch", "24 inch"] }
       ],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Tape-In Extensions", "SKU": "YB-TAPE-BROWN", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Tape-In Extensions", "SKU": "YB-TAPE-BROWN", "Availability": "In Stock" },
       "description": "<p>Twenty hand-taped wefts of soft brown human hair. The low-profile adhesive lies flat against the scalp, so hair moves as one.</p><h3>Details</h3><ul><li>20 pieces, 2.5 g per weft</li><li>100% remy human hair</li><li>Recommended for professional application</li><li>Lasts 6–8 weeks with care</li></ul>",
       "details": [
         { "title": "Application", "content": "We recommend a professional install. Book our home hair service in Dubai, or ask your stylist to use a tape-in remover for safe removal." },
@@ -592,7 +592,7 @@
       ],
       "collections": ["hair-care", "hair-essentials"],
       "options": [],
-      "metadata": { "Vendor": "Youmi Beauty", "Type": "Hair Care", "SKU": "YB-SERUM-01", "Availability": "In Stock" },
+      "metadata": { "Vendor": "Roman Beauty", "Type": "Hair Care", "SKU": "YB-SERUM-01", "Availability": "In Stock" },
       "description": "<p>A featherlight finishing serum with camellia oil and hydrolysed silk. Smooths flyaways on natural hair and extensions without weighing them down.</p><h3>Details</h3><ul><li>50 ml pump bottle</li><li>Silicone-free, heat-protectant up to 200°C</li><li>A little goes a long way — start with one pump</li></ul>",
       "details": [
         { "title": "How to Use", "content": "Warm one pump between palms and smooth over mid-lengths and ends on damp or dry hair." },
@@ -607,8 +607,8 @@
       "excerpt": "The invitations are on the table, and the hair you see in your mind for the season is a little longer and fuller than the hair in the mirror. Clip-ins and ponytails go in at home, in minutes, with ...",
       "image": "/images/questions-before-booking-extensions-stylist-cover.jpg",
       "date": "2026-09-18",
-      "author": "Youmi Beauty",
-      "content": "<p>The invitations are on the table, and the hair you see in your mind for the season is a little longer and fuller than the hair in the mirror. Clip-ins and ponytails go in at home, in minutes, with no salon appointment at all. Tape-ins and professional installs are a different commitment — and worth a proper conversation before you sit in the chair.</p><h2>1. Ask which method suits your hair density</h2><p>Fine hair and very dense hair do not behave the same way under tape. A good stylist will feel your hair between their fingers, check the scalp, and tell you honestly whether tape-in, clip-in or a ponytail will look most natural.</p><h2>2. Ask how the hair was sourced</h2><p>Remy, ethically sourced human hair behaves differently from synthetic blends. Ask whether the hair can be heat-styled, how it was processed, and whether the colour can be refreshed.</p><h2>3. Ask about the removal</h2><p>The best install is only as good as its removal. Ask what product they use, how long removal takes, and whether a treatment is included afterwards.</p><h2>4. Ask what aftercare you need at home</h2><p>Extensions need a different routine: a loop brush, sulphate-free shampoo, and a silk pillowcase go a long way. Ask for a simple three-step routine you can actually keep up with.</p><h2>5. Ask what happens if the colour is not right</h2><p>Bring a photo in daylight, not a filtered one. Confirm the colour-matching policy before the hair is cut or installed. At Youmi, we colour-match from a daylight photo before dispatch, free of charge.</p><blockquote>Good extensions should look like a better version of your own hair — not like hair sitting on top of it.</blockquote>"
+      "author": "Roman Beauty",
+      "content": "<p>The invitations are on the table, and the hair you see in your mind for the season is a little longer and fuller than the hair in the mirror. Clip-ins and ponytails go in at home, in minutes, with no salon appointment at all. Tape-ins and professional installs are a different commitment — and worth a proper conversation before you sit in the chair.</p><h2>1. Ask which method suits your hair density</h2><p>Fine hair and very dense hair do not behave the same way under tape. A good stylist will feel your hair between their fingers, check the scalp, and tell you honestly whether tape-in, clip-in or a ponytail will look most natural.</p><h2>2. Ask how the hair was sourced</h2><p>Remy, ethically sourced human hair behaves differently from synthetic blends. Ask whether the hair can be heat-styled, how it was processed, and whether the colour can be refreshed.</p><h2>3. Ask about the removal</h2><p>The best install is only as good as its removal. Ask what product they use, how long removal takes, and whether a treatment is included afterwards.</p><h2>4. Ask what aftercare you need at home</h2><p>Extensions need a different routine: a loop brush, sulphate-free shampoo, and a silk pillowcase go a long way. Ask for a simple three-step routine you can actually keep up with.</p><h2>5. Ask what happens if the colour is not right</h2><p>Bring a photo in daylight, not a filtered one. Confirm the colour-matching policy before the hair is cut or installed. At Roman Beauty, we colour-match from a daylight photo before dispatch, free of charge.</p><blockquote>Good extensions should look like a better version of your own hair — not like hair sitting on top of it.</blockquote>"
     },
     {
       "handle": "colored-lenses-with-power-vs-without",
@@ -616,7 +616,7 @@
       "excerpt": "Your first pair of colored lenses usually begins with a shade. You picture the golden brown of La Capri at a family dinner, or the deep blue of La Tulum at a wedding, and then the product page asks...",
       "image": "/images/colored-lenses-with-power-vs-without-cover.jpg",
       "date": "2026-08-30",
-      "author": "Youmi Beauty",
+      "author": "Roman Beauty",
       "content": "<p>Your first pair of coloured lenses usually begins with a shade. You picture the golden brown of La Capri at a family dinner, or the deep blue of La Tulum at a wedding, and then the product page asks a question you were not expecting: with power, or without?</p><h2>The short answer</h2><p>If you do not wear a prescription, choose <strong>without power</strong>. If you already wear glasses or contacts, choose <strong>with power</strong> and give us your prescription. Do not substitute a powered lens for your normal correction unless the numbers match.</p><h2>What “power” actually means</h2><p>Power is the optical correction built into the lens, measured in dioptres. A lens without power is plano — clear vision, no correction. A lens with power has your sphere and, if needed, cylinder values built in.</p><h2>Can I wear powered lenses just for the colour?</h2><p>No. Wearing a prescription you do not need can cause headaches, blur and eye strain. If you love a shade and have perfect vision, order it without power.</p><h2>How to send your prescription</h2><p>Choose <em>With Power</em>, complete checkout, then reply to your order confirmation with a photo of your prescription. Our team confirms every order by WhatsApp before dispatch.</p><h2>Comfort checklist for first-time wearers</h2><ul><li>Wash and dry your hands before touching the lens.</li><li>Check the lens is not inside out — the edge should curve inward like a bowl.</li><li>Start with two hours on day one and build up slowly.</li><li>Never sleep or swim in your lenses.</li><li>Replace monthly, even if they still feel comfortable.</li></ul>"
     }
   ]

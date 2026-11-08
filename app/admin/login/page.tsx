@@ -12,12 +12,12 @@ export default async function AdminLoginPage() {
     <div className="admin-login">
       <div className="admin-login__card">
         <div className="admin-login__brand">
-          <strong>Youmi Beauty</strong>
+          <strong>Roman Beauty</strong>
           <span>Painel administrativo</span>
         </div>
 
         <h1>Entrar</h1>
-        <p className="hint">Área restrita à equipe Youmi.</p>
+        <p className="hint">Área restrita à equipe Roman Beauty.</p>
 
         {!isAdminConfigured() && (
           <p className="admin-alert is-error">

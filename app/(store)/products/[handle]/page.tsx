@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: product.title,
     description:
       product.subtitle ||
-      `${product.title} by Youmi Beauty — salon-grade beauty essentials dispatched from Dubai.`,
+      `${product.title} by Roman Beauty — salon-grade beauty essentials dispatched from Dubai.`,
     alternates: { canonical: `/products/${product.handle}` },
     openGraph: {
       title: product.title,

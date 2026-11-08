@@ -9,8 +9,8 @@ export function Footer() {
         <div className="footer__grid">
           <div className="footer__newsletter width-33">
             <div className="footer__logo">
-              <Link href="/" className="footer__logo-link" aria-label="Youmi Beauty — Home">
-                <img src="/images/Youmi_Beauty_Logo_whit.png" alt="Youmi Beauty" width={300} height={27} />
+              <Link href="/" className="footer__logo-link" aria-label="Roman Beauty — Home">
+                <img src="/images/Roman_Beauty_Logo_white.png" alt="Roman Beauty" width={1200} height={351} />
               </Link>
             </div>
             <NewsletterForm />
@@ -76,7 +76,7 @@ export function Footer() {
         <div className="footer__bottom">
           <div className="footer__copyright">
             <span>© 2026</span>
-            <p>YOUMI BEAUTY. All rights reserved.</p>
+            <p>ROMAN BEAUTY. All rights reserved.</p>
           </div>
 
           <div className="footer__payments" aria-label="Accepted payment methods">

@@ -7,7 +7,7 @@ import { IconArrowRight } from "./icons";
 const slides = [
   {
     image: "/images/ICONIC_HAIR_DRYER.jpg",
-    alt: "Youmi Beauty GlamDry hair dryer",
+    alt: "Roman Beauty GlamDry hair dryer",
     background: "#f3e3d3",
     heading: "YB GlamDry",
     href: "/products/youmi-beauty-glamdry",
@@ -15,7 +15,7 @@ const slides = [
   },
   {
     image: "/images/youmi_beauty_clip_in_hair_extensions_best_in_Dubai.jpg",
-    alt: "Youmi Beauty clip-in hair extensions",
+    alt: "Roman Beauty clip-in hair extensions",
     background: "#ece2d8",
     heading: "Clip in. Go longer.",
     href: "/collections/hair-clip-in-extensions",
@@ -23,7 +23,7 @@ const slides = [
   },
   {
     image: "/images/BodyScrubYoumiBeauty.png",
-    alt: "Youmi Beauty body care ritual",
+    alt: "Roman Beauty body care ritual",
     background: "#efe4db",
     heading: "Body Rituals",
     href: "/collections/body-care",
@@ -59,7 +59,7 @@ export function HeroSlideshow() {
           <div className="sidebar-image-wrapper">
             <img
               src="/images/Youmi_beauty_Body_care_Bundle.png"
-              alt="Youmi Beauty body care"
+              alt="Roman Beauty body care"
               width={928}
               height={1152}
             />

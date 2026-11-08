@@ -1,6 +1,6 @@
-# Youmi Beauty — storefront
+# Roman Beauty — storefront
 
-A Next.js 15 storefront for Youmi Beauty: salon-grade hair tools, human hair extensions, coloured contact lenses and body rituals, dispatched from Dubai.
+A Next.js 15 storefront for Roman Beauty: salon-grade hair tools, human hair extensions, coloured contact lenses and body rituals, dispatched from Dubai.
 
 The site runs **without a database** out of the box using `data/catalog.json`. Connect Supabase when you want the CMS-style catalog, newsletter subscribers and order records to persist.
 

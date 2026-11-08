@@ -63,8 +63,8 @@ export const shopTheLook = {
   image: "/images/Youmi_beauty_glam_dryer_styling_set.png",
   products: [
     { handle: "youmi-beauty-glamdry", title: "GlamDry Hair Dryer", price: 462, image: "/images/POST4.png", hotspot: { top: "40%", left: "50%" } },
-    { handle: "youmi-beauty-hair-dryer-1300w", title: "Hair Dryer 1300W | Youmi Beauty", price: 294, image: "/images/K67A2193copy.jpg", hotspot: { top: "40%", left: "50%" } },
-    { handle: "ash-blonde-ponytail-hair-extension", title: "Ash Blonde — Ponytail Extension | Youmi Beauty", price: 1050, image: "/images/002A8020.jpg", hotspot: { top: "90%", left: "50%" } },
+    { handle: "youmi-beauty-hair-dryer-1300w", title: "Hair Dryer 1300W | Roman Beauty", price: 294, image: "/images/K67A2193copy.jpg", hotspot: { top: "40%", left: "50%" } },
+    { handle: "ash-blonde-ponytail-hair-extension", title: "Ash Blonde — Ponytail Extension | Roman Beauty", price: 1050, image: "/images/002A8020.jpg", hotspot: { top: "90%", left: "50%" } },
   ],
 };
 

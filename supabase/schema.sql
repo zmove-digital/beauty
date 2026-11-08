@@ -1,5 +1,5 @@
 -- ============================================================
---  Youmi Beauty — storefront schema
+--  Roman Beauty - storefront schema
 --  Run this in Supabase → SQL Editor (or `supabase db push`).
 --  Safe to re-run: every statement is idempotent.
 -- ============================================================
@@ -68,7 +68,7 @@ create table if not exists public.articles (
   excerpt    text default '',
   image      text default '',
   date       date,
-  author     text default 'Youmi Beauty',
+  author     text default 'Roman Beauty',
   content    text default '',
   created_at timestamptz not null default now()
 );

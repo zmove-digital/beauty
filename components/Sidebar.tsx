@@ -40,12 +40,12 @@ export function Sidebar() {
         aria-label="Store navigation"
       >
         <div className="m-sidebar__content">
-          <Link href="/" className="m-sidebar__logo" aria-label="Youmi Beauty home">
+          <Link href="/" className="m-sidebar__logo" aria-label="Roman Beauty home">
             <img
-              src={light ? "/images/Youmi_Beauty_Logo_whit.png" : "/images/Youmi_Beauty_Logo.png"}
-              alt="Youmi Beauty"
-              width={300}
-              height={27}
+              src={light ? "/images/Roman_Beauty_Logo_white.png" : "/images/Roman_Beauty_Logo.png"}
+              alt="Roman Beauty"
+              width={1200}
+              height={351}
             />
           </Link>
 
@@ -146,8 +146,8 @@ export function Sidebar() {
 
       <header className="m-mobile-header">
         <div className="m-mobile-header__content">
-          <Link href="/" className="m-mobile-header__logo" aria-label="Youmi Beauty home">
-            <img src="/images/Youmi_Beauty_Logo.png" alt="Youmi Beauty" width={300} height={27} />
+          <Link href="/" className="m-mobile-header__logo" aria-label="Roman Beauty home">
+            <img src="/images/Roman_Beauty_Logo.png" alt="Roman Beauty" width={1200} height={351} />
           </Link>
 
           <div className="m-mobile-header__nav">
