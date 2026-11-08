@@ -6,13 +6,13 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
   title: {
-    default: "Youmi Beauty — Hair, Lenses & Rituals | Dubai",
-    template: "%s | Youmi Beauty",
+    default: "Roman Beauty — Hair, Lenses & Rituals | Dubai",
+    template: "%s | Roman Beauty",
   },
   description:
-    "Youmi Beauty — salon-grade hair tools, human hair extensions, colored contact lenses and body rituals, dispatched from Dubai to the world.",
+    "Roman Beauty — salon-grade hair tools, human hair extensions, colored contact lenses and body rituals, dispatched from Dubai to the world.",
   keywords: [
-    "Youmi Beauty",
+    "Roman Beauty",
     "hair dryer Dubai",
     "clip in hair extensions",
     "colored contact lenses",
@@ -20,16 +20,18 @@ export const metadata: Metadata = {
     "body care UAE",
   ],
   openGraph: {
-    title: "Youmi Beauty — Hair, Lenses & Rituals",
+    title: "Roman Beauty — Hair, Lenses & Rituals",
     description:
       "Salon-grade hair tools, human hair extensions, colored contact lenses and body rituals, dispatched from Dubai.",
     type: "website",
     locale: "en_AE",
-    siteName: "Youmi Beauty",
+    siteName: "Roman Beauty",
     images: ["/images/ICONIC_HAIR_DRYER.jpg"],
   },
   icons: {
-    icon: "/images/Youmi_Beauty_Logo.png",
+    icon: "/images/Roman_Beauty_Icon.png",
+    shortcut: "/images/Roman_Beauty_Icon.png",
+    apple: "/images/Roman_Beauty_Icon.png",
   },
 };
 
