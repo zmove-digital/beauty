@@ -95,10 +95,10 @@ export function Footer() {
           </div>
 
           <div className="footer__socials">
-            <a href="https://www.instagram.com/youmibeauty" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://www.instagram.com/romanbeauty" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <IconInstagram />
             </a>
-            <a href="https://www.tiktok.com/@youmibeauty" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+            <a href="https://www.tiktok.com/@romanbeauty" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
               <IconTikTok />
             </a>
           </div>

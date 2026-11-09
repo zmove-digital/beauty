@@ -120,7 +120,7 @@ export function Sidebar() {
             <ul className="social-icons-list">
               <li>
                 <a
-                  href="https://www.instagram.com/youmibeauty"
+                  href="https://www.instagram.com/romanbeauty"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
@@ -130,7 +130,7 @@ export function Sidebar() {
               </li>
               <li>
                 <a
-                  href="https://www.tiktok.com/@youmibeauty"
+                  href="https://www.tiktok.com/@romanbeauty"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="TikTok"
